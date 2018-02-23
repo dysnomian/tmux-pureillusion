@@ -1,3 +1,6 @@
 #!/usr/bin/env bash
 
-eval "$HOME/go/src/tmux-pureillusion/tmux-pureillusion"
+# listing installed plugins
+ls -1 "$plugin_path"
+
+$($TMUX_PLUGIN_MANAGER_PATH/tmux-pureillusion/tmux-pureillusion)

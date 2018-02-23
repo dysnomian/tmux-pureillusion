@@ -1,0 +1,23 @@
+{
+	"status-fg": "pure-white",
+	"status-bg": "soft-gray",
+	"status-right-bg": "papika-blue",
+	"status-right-fg": "pure-white",
+	"window-status-current-bg": "flipflap-gold",
+	"window-status-current-fg": "pure-white",
+	"window-status-bg": "flipflap-yellow",
+	"window-status-fg": "pure-gray",
+	"window-status-activity-bg": "pure-white",
+	"window-status-activity-fg": "yayaka-purple",
+	"pane-border-fg": "pure-pink",
+	"pane-active-border-fg": "soft-gray",
+	"display-panes-colour": "yayaka-green",
+	"display-panes-active-colour": "yayaka-purple",
+	"clock-mode-colour": "cocona-pink",
+	"message-bg": "pure-white",
+	"message-fg": "flipflap-rose",
+	"message-command-bg": "yuyu-white",
+	"message-command-fg": "yuyu-red",
+	"mode-bg": "papika-blue",
+	"mode-fg": "pure-white"
+}

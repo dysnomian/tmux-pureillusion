@@ -1,23 +1,5 @@
 # Pure Illusion - Powerline
 
-set -g colors-bg "#2A2C2F"
-set -g colors-fg "#EFE6E6"
-set -g colors-black "#1D1F21"
-set -g colors-abyssal: "#1D081F"
-set -g colors-red "#F6698C"
-set -g colors-light-red "#FFA6A6"
-set -g colors-green: "#B1FB7D"
-set -g colors-light-green: "#A6FFA6"
-set -g colors-yellow "#FFF085"
-set -g colors-light-yellow "#FFF5A6"
-set -g colors-blue "#75B9FC"
-set -g colors-light-blue "#A4D6FC"
-set -g colors-cyan "#53ECE8"
-set -g colors-light-cyan "#a4fcfc"
-set -g colors-gray "#cfd7d4"
-set -g colors-white "#ffffff"
-
-# Status update interval
 set -g status-interval 1
 
 # Basic status bar colors

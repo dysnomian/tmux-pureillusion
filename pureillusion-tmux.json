@@ -1,0 +1,10 @@
+{
+	"status-interval": "1",
+  "status-left-length": "40",
+  "status-right-length": "150",
+	"status-justify": "centre",
+	"pane-border-bg": "default",
+	"pane-active-border-bg": "default",
+	"clock-mode-style": "12",
+	"window-status-separator": " "
+}

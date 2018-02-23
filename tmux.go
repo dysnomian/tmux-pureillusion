@@ -22,6 +22,21 @@ func tmux_set(item string, value string) {
 	}
 }
 
+func tmux_setw(item string, value string) {
+	k := string(item)
+	v := string(value)
+
+	logger.Info("tmux setw -g %s %s\n", k, v)
+	cmd := exec.Command("tmux", "setw", "-g", k, v)
+
+	stdoutStderr, err := cmd.CombinedOutput()
+	logger.Info("%s", stdoutStderr)
+
+	if err != nil {
+		logger.Fatal("Failed writing tmux setting: { %s: %s }. %s\n", k, v, err)
+	}
+}
+
 func tmux_set_color(key string, value string) {
 	v := colors[string(value)]
 	tmux_set(key, v)

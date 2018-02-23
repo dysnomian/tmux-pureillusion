@@ -51,6 +51,9 @@ func main() {
 			tmux_set("status-left", status_left())
 			update_settings("pureillusion-tmux.json")
 			update_colors(c.String("background"))
+			tmux_setw("window-status-current-format", active_window())
+			tmux_setw("window-status-format", inactive_window())
+
 		} else {
 			tmux_set("status-left", status_left())
 		}

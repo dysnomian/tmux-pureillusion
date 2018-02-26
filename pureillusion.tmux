@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# listing installed plugins
-ls -1 "$plugin_path"
+CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-$($TMUX_PLUGIN_MANAGER_PATH/tmux-pureillusion/tmux-pureillusion)
+$CURRENT_DIR/tmux-pureillusion
+

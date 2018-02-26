@@ -3400,3 +3400,1981 @@ INFO : 2018/02/23 15:00:46.214697 status_line.go:53: Next bg: %s (%s)soft-gray#2
 INFO : 2018/02/23 15:00:46.214744 tmux.go:29: tmux setw -g %s %s
 window-status-format#[fg=#2e2b2b,bg=#ff8da7,nobold]#[fg=#ffffff,bg=#ff8da7,bold] #I #W #[fg=#ff8da7,bg=#2e2b2b,nobold]
 INFO : 2018/02/23 15:00:46.226123 tmux.go:33: %s[]
+INFO : 2018/02/23 15:02:48.368670 status_line.go:53: Next bg: %s (%s)cocona-pink-deeper#f77378
+INFO : 2018/02/23 15:02:48.368909 status_line.go:53: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/23 15:02:48.368947 status_line.go:53: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/23 15:02:48.368988 tmux.go:14: tmux set -g %s %s
+status-left#[fg=#e69263,bg=#fcfdaf,bold] #S #[fg=#fcfdaf,bg=#f77378,nobold]#[fg=#ffb7ff,bg=#f77378,bold] #(whoami) #[fg=#f77378,bg=#2e2b2b,nobold]#[fg=#366dd2,bg=#2e2b2b,bold] #I:#P#[fg=#2e2b2b,bg=#2e2b2b,nobold]
+INFO : 2018/02/23 15:02:48.379083 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.379262 tmux.go:14: tmux set -g %s %s
+status-interval1
+INFO : 2018/02/23 15:02:48.391611 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.391872 tmux.go:14: tmux set -g %s %s
+status-left-length40
+INFO : 2018/02/23 15:02:48.405287 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.405387 tmux.go:14: tmux set -g %s %s
+status-right-length150
+INFO : 2018/02/23 15:02:48.417072 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.417162 tmux.go:14: tmux set -g %s %s
+status-justifycentre
+INFO : 2018/02/23 15:02:48.429849 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.430122 tmux.go:14: tmux set -g %s %s
+pane-border-bgdefault
+INFO : 2018/02/23 15:02:48.438887 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.439005 tmux.go:14: tmux set -g %s %s
+pane-active-border-bgdefault
+INFO : 2018/02/23 15:02:48.448094 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.448182 tmux.go:14: tmux set -g %s %s
+clock-mode-style12
+INFO : 2018/02/23 15:02:48.456834 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.456941 tmux.go:14: tmux set -g %s %s
+window-status-separator 
+INFO : 2018/02/23 15:02:48.466056 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.466327 tmux.go:14: tmux set -g %s %s
+status-fg#ffffff
+INFO : 2018/02/23 15:02:48.478276 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.478389 tmux.go:14: tmux set -g %s %s
+status-bg#2e2b2b
+INFO : 2018/02/23 15:02:48.486894 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.486981 tmux.go:14: tmux set -g %s %s
+status-right-bg#98d3f9
+INFO : 2018/02/23 15:02:48.500845 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.500939 tmux.go:14: tmux set -g %s %s
+status-right-fg#ffffff
+INFO : 2018/02/23 15:02:48.509552 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.509658 tmux.go:14: tmux set -g %s %s
+window-status-current-bg#e69263
+INFO : 2018/02/23 15:02:48.518161 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.518254 tmux.go:14: tmux set -g %s %s
+window-status-current-fg#ffffff
+INFO : 2018/02/23 15:02:48.526970 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.527075 tmux.go:14: tmux set -g %s %s
+window-status-bg#fcfdaf
+INFO : 2018/02/23 15:02:48.536834 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.536937 tmux.go:14: tmux set -g %s %s
+window-status-fg#888888
+INFO : 2018/02/23 15:02:48.548874 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.548992 tmux.go:14: tmux set -g %s %s
+window-status-activity-bg#ffffff
+INFO : 2018/02/23 15:02:48.559650 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.559900 tmux.go:14: tmux set -g %s %s
+window-status-activity-fg#cb88ec
+INFO : 2018/02/23 15:02:48.570320 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.570414 tmux.go:14: tmux set -g %s %s
+pane-border-fg#ffb7ff
+INFO : 2018/02/23 15:02:48.579007 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.579114 tmux.go:14: tmux set -g %s %s
+pane-active-border-fg#2e2b2b
+INFO : 2018/02/23 15:02:48.587666 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.587790 tmux.go:14: tmux set -g %s %s
+display-panes-colour#a6e22e
+INFO : 2018/02/23 15:02:48.597046 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.597180 tmux.go:14: tmux set -g %s %s
+display-panes-active-colour#cb88ec
+INFO : 2018/02/23 15:02:48.609061 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.609189 tmux.go:14: tmux set -g %s %s
+clock-mode-colour#fa9cb6
+INFO : 2018/02/23 15:02:48.618386 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.618483 tmux.go:14: tmux set -g %s %s
+message-bg#ffffff
+INFO : 2018/02/23 15:02:48.630824 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.630936 tmux.go:14: tmux set -g %s %s
+message-fg#ff8da7
+INFO : 2018/02/23 15:02:48.639637 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.639734 tmux.go:14: tmux set -g %s %s
+message-command-bg#dce4e3
+INFO : 2018/02/23 15:02:48.648546 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.648657 tmux.go:14: tmux set -g %s %s
+message-command-fg#df8289
+INFO : 2018/02/23 15:02:48.657385 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.657504 tmux.go:14: tmux set -g %s %s
+mode-bg#98d3f9
+INFO : 2018/02/23 15:02:48.667639 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.667786 tmux.go:14: tmux set -g %s %s
+mode-fg#ffffff
+INFO : 2018/02/23 15:02:48.679267 tmux.go:18: %s[]
+INFO : 2018/02/23 15:02:48.679379 status_line.go:53: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/23 15:02:48.679423 status_line.go:53: Next bg: %s (%s)flipflap-gold#e69263
+INFO : 2018/02/23 15:02:48.679458 status_line.go:53: Next bg: %s (%s)pure-white#ffffff
+INFO : 2018/02/23 15:02:48.679520 status_line.go:53: Next bg: %s (%s)cocona-pink#fa9cb6
+INFO : 2018/02/23 15:02:48.679555 status_line.go:53: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/23 15:02:48.679608 tmux.go:29: tmux setw -g %s %s
+window-status-current-format#[fg=#fcfdaf,bg=#2e2b2b,nobold]#[fg=#2e2b2b,bg=#fcfdaf,bold] #I #[fg=#fcfdaf,bg=#e69263,nobold]#[fg=#e69263,bg=#ffffff,nobold]#[fg=#000000,bg=#ffffff,bold] #W #[fg=#ffffff,bg=#fa9cb6,nobold]#[fg=#fa9cb6,bg=#2e2b2b,nobold]
+INFO : 2018/02/23 15:02:48.688927 tmux.go:33: %s[]
+INFO : 2018/02/23 15:02:48.689151 status_line.go:53: Next bg: %s (%s)flipflap-rose#ff8da7
+INFO : 2018/02/23 15:02:48.689246 status_line.go:53: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/23 15:02:48.689335 tmux.go:29: tmux setw -g %s %s
+window-status-format#[fg=#2e2b2b,bg=#ff8da7,nobold]#[fg=#ffffff,bg=#ff8da7,bold] #I #W #[fg=#ff8da7,bg=#2e2b2b,nobold]
+INFO : 2018/02/23 15:02:48.702189 tmux.go:33: %s[]
+INFO : 2018/02/23 15:06:31.520861 status_line.go:53: Next bg: %s (%s)cocona-pink-deeper#f77378
+INFO : 2018/02/23 15:06:31.521053 status_line.go:53: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/23 15:06:31.521080 status_line.go:53: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/23 15:06:31.521118 tmux.go:14: tmux set -g %s %s
+status-left#[fg=#e69263,bg=#fcfdaf,bold] #S #[fg=#fcfdaf,bg=#f77378,nobold]#[fg=#ffb7ff,bg=#f77378,bold] #(whoami) #[fg=#f77378,bg=#2e2b2b,nobold]#[fg=#366dd2,bg=#2e2b2b,bold] #I:#P#[fg=#2e2b2b,bg=#2e2b2b,nobold]
+INFO : 2018/02/23 15:06:31.529909 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.530073 tmux.go:14: tmux set -g %s %s
+status-interval1
+INFO : 2018/02/23 15:06:31.537792 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.537893 tmux.go:14: tmux set -g %s %s
+status-left-length40
+INFO : 2018/02/23 15:06:31.550474 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.550667 tmux.go:14: tmux set -g %s %s
+status-right-length150
+INFO : 2018/02/23 15:06:31.561529 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.561635 tmux.go:14: tmux set -g %s %s
+status-justifycentre
+INFO : 2018/02/23 15:06:31.569833 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.569931 tmux.go:14: tmux set -g %s %s
+pane-border-bgdefault
+INFO : 2018/02/23 15:06:31.581885 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.582075 tmux.go:14: tmux set -g %s %s
+pane-active-border-bgdefault
+INFO : 2018/02/23 15:06:31.593460 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.593539 tmux.go:14: tmux set -g %s %s
+clock-mode-style12
+INFO : 2018/02/23 15:06:31.603343 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.603454 tmux.go:14: tmux set -g %s %s
+window-status-separator 
+INFO : 2018/02/23 15:06:31.611752 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.611991 tmux.go:14: tmux set -g %s %s
+status-fg#ffffff
+INFO : 2018/02/23 15:06:31.622810 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.622914 tmux.go:14: tmux set -g %s %s
+status-bg#2e2b2b
+INFO : 2018/02/23 15:06:31.635912 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.636014 tmux.go:14: tmux set -g %s %s
+status-right-bg#98d3f9
+INFO : 2018/02/23 15:06:31.645365 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.645573 tmux.go:14: tmux set -g %s %s
+status-right-fg#ffffff
+INFO : 2018/02/23 15:06:31.656519 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.656635 tmux.go:14: tmux set -g %s %s
+window-status-current-bg#e69263
+INFO : 2018/02/23 15:06:31.665075 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.665215 tmux.go:14: tmux set -g %s %s
+window-status-current-fg#ffffff
+INFO : 2018/02/23 15:06:31.674333 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.674455 tmux.go:14: tmux set -g %s %s
+window-status-bg#fcfdaf
+INFO : 2018/02/23 15:06:31.684493 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.684601 tmux.go:14: tmux set -g %s %s
+window-status-fg#888888
+INFO : 2018/02/23 15:06:31.697372 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.697550 tmux.go:14: tmux set -g %s %s
+window-status-activity-bg#ffffff
+INFO : 2018/02/23 15:06:31.708311 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.708414 tmux.go:14: tmux set -g %s %s
+window-status-activity-fg#cb88ec
+INFO : 2018/02/23 15:06:31.717032 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.717167 tmux.go:14: tmux set -g %s %s
+pane-border-fg#ffb7ff
+INFO : 2018/02/23 15:06:31.725504 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.725641 tmux.go:14: tmux set -g %s %s
+pane-active-border-fg#2e2b2b
+INFO : 2018/02/23 15:06:31.734821 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.734916 tmux.go:14: tmux set -g %s %s
+display-panes-colour#a6e22e
+INFO : 2018/02/23 15:06:31.744121 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.744267 tmux.go:14: tmux set -g %s %s
+display-panes-active-colour#cb88ec
+INFO : 2018/02/23 15:06:31.757900 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.757999 tmux.go:14: tmux set -g %s %s
+clock-mode-colour#fa9cb6
+INFO : 2018/02/23 15:06:31.773943 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.774057 tmux.go:14: tmux set -g %s %s
+message-bg#ffffff
+INFO : 2018/02/23 15:06:31.788287 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.788395 tmux.go:14: tmux set -g %s %s
+message-fg#ff8da7
+INFO : 2018/02/23 15:06:31.796393 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.796503 tmux.go:14: tmux set -g %s %s
+message-command-bg#dce4e3
+INFO : 2018/02/23 15:06:31.804649 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.804745 tmux.go:14: tmux set -g %s %s
+message-command-fg#df8289
+INFO : 2018/02/23 15:06:31.815040 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.815149 tmux.go:14: tmux set -g %s %s
+mode-bg#98d3f9
+INFO : 2018/02/23 15:06:31.829775 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.830067 tmux.go:14: tmux set -g %s %s
+mode-fg#ffffff
+INFO : 2018/02/23 15:06:31.840684 tmux.go:18: %s[]
+INFO : 2018/02/23 15:06:31.840784 status_line.go:53: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/23 15:06:31.840820 status_line.go:53: Next bg: %s (%s)flipflap-gold#e69263
+INFO : 2018/02/23 15:06:31.840849 status_line.go:53: Next bg: %s (%s)pure-white#ffffff
+INFO : 2018/02/23 15:06:31.840902 status_line.go:53: Next bg: %s (%s)cocona-pink#fa9cb6
+INFO : 2018/02/23 15:06:31.840929 status_line.go:53: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/23 15:06:31.840970 tmux.go:29: tmux setw -g %s %s
+window-status-current-format#[fg=#fcfdaf,bg=#2e2b2b,nobold]#[fg=#2e2b2b,bg=#fcfdaf,bold] #I #[fg=#fcfdaf,bg=#e69263,nobold]#[fg=#e69263,bg=#ffffff,nobold]#[fg=#000000,bg=#ffffff,bold] #W #[fg=#ffffff,bg=#fa9cb6,nobold]#[fg=#fa9cb6,bg=#2e2b2b,nobold]
+INFO : 2018/02/23 15:06:31.849182 tmux.go:33: %s[]
+INFO : 2018/02/23 15:06:31.849298 status_line.go:53: Next bg: %s (%s)flipflap-rose#ff8da7
+INFO : 2018/02/23 15:06:31.849355 status_line.go:53: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/23 15:06:31.849399 tmux.go:29: tmux setw -g %s %s
+window-status-format#[fg=#2e2b2b,bg=#ff8da7,nobold]#[fg=#ffffff,bg=#ff8da7,bold] #I #W #[fg=#ff8da7,bg=#2e2b2b,nobold]
+INFO : 2018/02/23 15:06:31.857739 tmux.go:33: %s[]
+INFO : 2018/02/25 12:57:23.477377 status_line.go:53: Next bg: %s (%s)cocona-pink-deeper#f77378
+INFO : 2018/02/25 12:57:23.479557 status_line.go:53: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/25 12:57:23.479588 status_line.go:53: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/25 12:57:23.479619 tmux.go:14: tmux set -g %s %s
+status-left#[fg=#e69263,bg=#fcfdaf,bold] #S #[fg=#fcfdaf,bg=#f77378,nobold]#[fg=#ffb7ff,bg=#f77378,bold] #(whoami) #[fg=#f77378,bg=#2e2b2b,nobold]#[fg=#366dd2,bg=#2e2b2b,bold] #I:#P#[fg=#2e2b2b,bg=#2e2b2b,nobold]
+INFO : 2018/02/25 12:57:23.488701 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.489209 tmux.go:14: tmux set -g %s %s
+status-interval1
+INFO : 2018/02/25 12:57:23.497990 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.498111 tmux.go:14: tmux set -g %s %s
+status-left-length40
+INFO : 2018/02/25 12:57:23.507559 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.507775 tmux.go:14: tmux set -g %s %s
+status-right-length150
+INFO : 2018/02/25 12:57:23.520056 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.520269 tmux.go:14: tmux set -g %s %s
+status-justifycentre
+INFO : 2018/02/25 12:57:23.529749 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.529849 tmux.go:14: tmux set -g %s %s
+pane-border-bgdefault
+INFO : 2018/02/25 12:57:23.538904 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.539016 tmux.go:14: tmux set -g %s %s
+pane-active-border-bgdefault
+INFO : 2018/02/25 12:57:23.547757 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.547858 tmux.go:14: tmux set -g %s %s
+clock-mode-style12
+INFO : 2018/02/25 12:57:23.557904 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.558014 tmux.go:14: tmux set -g %s %s
+window-status-separator 
+INFO : 2018/02/25 12:57:23.566908 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.568576 tmux.go:14: tmux set -g %s %s
+status-fg#ffffff
+INFO : 2018/02/25 12:57:23.578364 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.578471 tmux.go:14: tmux set -g %s %s
+status-bg#2e2b2b
+INFO : 2018/02/25 12:57:23.590853 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.590969 tmux.go:14: tmux set -g %s %s
+status-right-bg#98d3f9
+INFO : 2018/02/25 12:57:23.599757 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.599857 tmux.go:14: tmux set -g %s %s
+status-right-fg#ffffff
+INFO : 2018/02/25 12:57:23.608799 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.608908 tmux.go:14: tmux set -g %s %s
+window-status-current-bg#e69263
+INFO : 2018/02/25 12:57:23.617653 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.617757 tmux.go:14: tmux set -g %s %s
+window-status-current-fg#ffffff
+INFO : 2018/02/25 12:57:23.626500 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.626615 tmux.go:14: tmux set -g %s %s
+window-status-bg#fcfdaf
+INFO : 2018/02/25 12:57:23.635391 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.635505 tmux.go:14: tmux set -g %s %s
+window-status-fg#888888
+INFO : 2018/02/25 12:57:23.645359 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.645474 tmux.go:14: tmux set -g %s %s
+window-status-activity-bg#ffffff
+INFO : 2018/02/25 12:57:23.657566 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.657690 tmux.go:14: tmux set -g %s %s
+window-status-activity-fg#cb88ec
+INFO : 2018/02/25 12:57:23.667327 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.667435 tmux.go:14: tmux set -g %s %s
+pane-border-fg#ffb7ff
+INFO : 2018/02/25 12:57:23.676329 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.676435 tmux.go:14: tmux set -g %s %s
+pane-active-border-fg#2e2b2b
+INFO : 2018/02/25 12:57:23.685273 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.685365 tmux.go:14: tmux set -g %s %s
+display-panes-colour#a6e22e
+INFO : 2018/02/25 12:57:23.694209 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.694316 tmux.go:14: tmux set -g %s %s
+display-panes-active-colour#cb88ec
+INFO : 2018/02/25 12:57:23.703132 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.703248 tmux.go:14: tmux set -g %s %s
+clock-mode-colour#fa9cb6
+INFO : 2018/02/25 12:57:23.712425 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.712576 tmux.go:14: tmux set -g %s %s
+message-bg#ffffff
+INFO : 2018/02/25 12:57:23.723404 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.723533 tmux.go:14: tmux set -g %s %s
+message-fg#ff8da7
+INFO : 2018/02/25 12:57:23.734622 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.734724 tmux.go:14: tmux set -g %s %s
+message-command-bg#dce4e3
+INFO : 2018/02/25 12:57:23.743521 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.743625 tmux.go:14: tmux set -g %s %s
+message-command-fg#df8289
+INFO : 2018/02/25 12:57:23.752428 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.752526 tmux.go:14: tmux set -g %s %s
+mode-bg#98d3f9
+INFO : 2018/02/25 12:57:23.761204 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.761301 tmux.go:14: tmux set -g %s %s
+mode-fg#ffffff
+INFO : 2018/02/25 12:57:23.770138 tmux.go:18: %s[]
+INFO : 2018/02/25 12:57:23.770237 status_line.go:53: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/25 12:57:23.770274 status_line.go:53: Next bg: %s (%s)flipflap-gold#e69263
+INFO : 2018/02/25 12:57:23.770307 status_line.go:53: Next bg: %s (%s)pure-white#ffffff
+INFO : 2018/02/25 12:57:23.770336 status_line.go:53: Next bg: %s (%s)cocona-pink#fa9cb6
+INFO : 2018/02/25 12:57:23.770367 status_line.go:53: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/25 12:57:23.770398 tmux.go:29: tmux setw -g %s %s
+window-status-current-format#[fg=#fcfdaf,bg=#2e2b2b,nobold]#[fg=#2e2b2b,bg=#fcfdaf,bold] #I #[fg=#fcfdaf,bg=#e69263,nobold]#[fg=#e69263,bg=#ffffff,nobold]#[fg=#000000,bg=#ffffff,bold] #W #[fg=#ffffff,bg=#fa9cb6,nobold]#[fg=#fa9cb6,bg=#2e2b2b,nobold]
+INFO : 2018/02/25 12:57:23.787498 tmux.go:33: %s[]
+INFO : 2018/02/25 12:57:23.787753 status_line.go:53: Next bg: %s (%s)flipflap-rose#ff8da7
+INFO : 2018/02/25 12:57:23.787834 status_line.go:53: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/25 12:57:23.787895 tmux.go:29: tmux setw -g %s %s
+window-status-format#[fg=#2e2b2b,bg=#ff8da7,nobold]#[fg=#ffffff,bg=#ff8da7,bold] #I #W #[fg=#ff8da7,bg=#2e2b2b,nobold]
+INFO : 2018/02/25 12:57:23.797521 tmux.go:33: %s[]
+INFO : 2018/02/26 11:07:06.536656 transition.go:19: Next bg: %s (%s)cocona-pink-deeper#f77378
+INFO : 2018/02/26 11:07:06.537882 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:07:06.537924 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:07:06.537965 tmux.go:14: tmux set -g %s %s
+status-left#[fg=#e69263,bg=#fcfdaf,bold] #S #[fg=#fcfdaf,bg=#f77378,nobold]#[fg=#ffb7ff,bg=#f77378,bold] #(whoami) #[fg=#f77378,bg=#2e2b2b,nobold]#[fg=#366dd2,bg=#2e2b2b,bold] #I:#P#[fg=#2e2b2b,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:07:06.553337 tmux.go:18: %s[]
+INFO : 2018/02/26 11:07:06.553729 tmux.go:14: tmux set -g %s %s
+status-interval1
+INFO : 2018/02/26 11:07:06.564944 tmux.go:18: %s[]
+INFO : 2018/02/26 11:07:06.565079 tmux.go:14: tmux set -g %s %s
+status-left-length40
+INFO : 2018/02/26 11:07:06.581451 tmux.go:18: %s[]
+INFO : 2018/02/26 11:07:06.581564 tmux.go:14: tmux set -g %s %s
+status-right-length150
+INFO : 2018/02/26 11:07:06.591759 tmux.go:18: %s[]
+INFO : 2018/02/26 11:07:06.591861 tmux.go:14: tmux set -g %s %s
+status-justifycentre
+INFO : 2018/02/26 11:07:06.601874 tmux.go:18: %s[]
+INFO : 2018/02/26 11:07:06.601990 tmux.go:14: tmux set -g %s %s
+pane-border-bgdefault
+INFO : 2018/02/26 11:07:06.614378 tmux.go:18: %s[]
+INFO : 2018/02/26 11:07:06.614488 tmux.go:14: tmux set -g %s %s
+pane-active-border-bgdefault
+INFO : 2018/02/26 11:07:06.625078 tmux.go:18: %s[]
+INFO : 2018/02/26 11:07:06.625211 tmux.go:14: tmux set -g %s %s
+clock-mode-style12
+INFO : 2018/02/26 11:07:06.644072 tmux.go:18: %s[]
+INFO : 2018/02/26 11:07:06.644311 tmux.go:14: tmux set -g %s %s
+window-status-separator 
+INFO : 2018/02/26 11:07:06.656129 tmux.go:18: %s[]
+INFO : 2018/02/26 11:07:06.656363 tmux.go:14: tmux set -g %s %s
+status-fg#ffffff
+INFO : 2018/02/26 11:07:06.666334 tmux.go:18: %s[]
+INFO : 2018/02/26 11:07:06.666464 tmux.go:14: tmux set -g %s %s
+status-bg#2e2b2b
+INFO : 2018/02/26 11:07:06.676600 tmux.go:18: %s[]
+INFO : 2018/02/26 11:07:06.676721 tmux.go:14: tmux set -g %s %s
+status-right-bg#98d3f9
+INFO : 2018/02/26 11:07:06.688773 tmux.go:18: %s[]
+INFO : 2018/02/26 11:07:06.688878 tmux.go:14: tmux set -g %s %s
+status-right-fg#ffffff
+INFO : 2018/02/26 11:07:06.699011 tmux.go:18: %s[]
+INFO : 2018/02/26 11:07:06.699122 tmux.go:14: tmux set -g %s %s
+window-status-last-bg#98d3f9
+INFO : 2018/02/26 11:07:06.714629 tmux.go:18: %s[]
+INFO : 2018/02/26 11:07:06.714897 tmux.go:14: tmux set -g %s %s
+window-status-last-fg
+INFO : 2018/02/26 11:07:06.727208 tmux.go:18: %s[98 97 100 32 99 111 108 111 117 114 58 32 10]
+FATAL: 2018/02/26 11:07:06.727349 tmux.go:21: Failed writing tmux setting: { %s: %s }. %s
+window-status-last-fgexit status 1
+INFO : 2018/02/26 11:08:14.716182 transition.go:19: Next bg: %s (%s)cocona-pink-deeper#f77378
+INFO : 2018/02/26 11:08:14.716561 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:08:14.716611 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:08:14.716664 tmux.go:14: tmux set -g %s %s
+status-left#[fg=#e69263,bg=#fcfdaf,bold] #S #[fg=#fcfdaf,bg=#f77378,nobold]#[fg=#ffb7ff,bg=#f77378,bold] #(whoami) #[fg=#f77378,bg=#2e2b2b,nobold]#[fg=#366dd2,bg=#2e2b2b,bold] #I:#P#[fg=#2e2b2b,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:08:14.735658 tmux.go:18: %s[]
+INFO : 2018/02/26 11:08:14.735821 tmux.go:14: tmux set -g %s %s
+status-interval1
+INFO : 2018/02/26 11:08:14.748562 tmux.go:18: %s[]
+INFO : 2018/02/26 11:08:14.748662 tmux.go:14: tmux set -g %s %s
+status-left-length40
+INFO : 2018/02/26 11:08:14.762011 tmux.go:18: %s[]
+INFO : 2018/02/26 11:08:14.762116 tmux.go:14: tmux set -g %s %s
+status-right-length150
+INFO : 2018/02/26 11:08:14.772049 tmux.go:18: %s[]
+INFO : 2018/02/26 11:08:14.772155 tmux.go:14: tmux set -g %s %s
+status-justifycentre
+INFO : 2018/02/26 11:08:14.784457 tmux.go:18: %s[]
+INFO : 2018/02/26 11:08:14.784582 tmux.go:14: tmux set -g %s %s
+pane-border-bgdefault
+INFO : 2018/02/26 11:08:14.796932 tmux.go:18: %s[]
+INFO : 2018/02/26 11:08:14.797059 tmux.go:14: tmux set -g %s %s
+pane-active-border-bgdefault
+INFO : 2018/02/26 11:08:14.814495 tmux.go:18: %s[]
+INFO : 2018/02/26 11:08:14.814638 tmux.go:14: tmux set -g %s %s
+clock-mode-style12
+INFO : 2018/02/26 11:08:14.829917 tmux.go:18: %s[]
+INFO : 2018/02/26 11:08:14.830024 tmux.go:14: tmux set -g %s %s
+window-status-separator 
+INFO : 2018/02/26 11:08:14.840930 tmux.go:18: %s[]
+INFO : 2018/02/26 11:08:14.841148 tmux.go:14: tmux set -g %s %s
+status-fg#ffffff
+INFO : 2018/02/26 11:08:14.852972 tmux.go:18: %s[]
+INFO : 2018/02/26 11:08:14.853067 tmux.go:14: tmux set -g %s %s
+status-bg#2e2b2b
+INFO : 2018/02/26 11:08:14.863460 tmux.go:18: %s[]
+INFO : 2018/02/26 11:08:14.863574 tmux.go:14: tmux set -g %s %s
+status-right-bg#98d3f9
+INFO : 2018/02/26 11:08:14.876715 tmux.go:18: %s[]
+INFO : 2018/02/26 11:08:14.876841 tmux.go:14: tmux set -g %s %s
+status-right-fg#ffffff
+INFO : 2018/02/26 11:08:14.888170 tmux.go:18: %s[]
+INFO : 2018/02/26 11:08:14.888402 tmux.go:14: tmux set -g %s %s
+window-status-last-bg#98d3f9
+INFO : 2018/02/26 11:08:14.901447 tmux.go:18: %s[]
+INFO : 2018/02/26 11:08:14.901579 tmux.go:14: tmux set -g %s %s
+window-status-last-fg
+INFO : 2018/02/26 11:08:14.909976 tmux.go:18: %s[98 97 100 32 99 111 108 111 117 114 58 32 10]
+FATAL: 2018/02/26 11:08:14.910094 tmux.go:21: Failed writing tmux setting: { %s: %s }. %s
+window-status-last-fgexit status 1
+INFO : 2018/02/26 11:11:20.311158 transition.go:19: Next bg: %s (%s)cocona-pink-deeper#f77378
+INFO : 2018/02/26 11:11:20.311494 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:11:20.311546 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:11:20.311600 tmux.go:14: tmux set -g %s %s
+status-left#[fg=#e69263,bg=#fcfdaf,bold] #S #[fg=#fcfdaf,bg=#f77378,nobold]#[fg=#ffb7ff,bg=#f77378,bold] #(whoami) #[fg=#f77378,bg=#2e2b2b,nobold]#[fg=#366dd2,bg=#2e2b2b,bold] #I:#P#[fg=#2e2b2b,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:11:20.329728 tmux.go:18: %s[]
+INFO : 2018/02/26 11:11:20.329922 tmux.go:14: tmux set -g %s %s
+status-interval1
+INFO : 2018/02/26 11:11:20.340336 tmux.go:18: %s[]
+INFO : 2018/02/26 11:11:20.340467 tmux.go:14: tmux set -g %s %s
+status-left-length40
+INFO : 2018/02/26 11:11:20.356305 tmux.go:18: %s[]
+INFO : 2018/02/26 11:11:20.356523 tmux.go:14: tmux set -g %s %s
+status-right-length150
+INFO : 2018/02/26 11:11:20.367251 tmux.go:18: %s[]
+INFO : 2018/02/26 11:11:20.367382 tmux.go:14: tmux set -g %s %s
+status-justifycentre
+INFO : 2018/02/26 11:11:20.380897 tmux.go:18: %s[]
+INFO : 2018/02/26 11:11:20.380992 tmux.go:14: tmux set -g %s %s
+pane-border-bgdefault
+INFO : 2018/02/26 11:11:20.393560 tmux.go:18: %s[]
+INFO : 2018/02/26 11:11:20.393690 tmux.go:14: tmux set -g %s %s
+pane-active-border-bgdefault
+INFO : 2018/02/26 11:11:20.404635 tmux.go:18: %s[]
+INFO : 2018/02/26 11:11:20.404750 tmux.go:14: tmux set -g %s %s
+clock-mode-style12
+INFO : 2018/02/26 11:11:20.421798 tmux.go:18: %s[]
+INFO : 2018/02/26 11:11:20.421917 tmux.go:14: tmux set -g %s %s
+window-status-separator 
+INFO : 2018/02/26 11:11:20.432207 tmux.go:18: %s[]
+INFO : 2018/02/26 11:11:20.432416 tmux.go:14: tmux set -g %s %s
+status-fg#ffffff
+INFO : 2018/02/26 11:11:20.442355 tmux.go:18: %s[]
+INFO : 2018/02/26 11:11:20.442460 tmux.go:14: tmux set -g %s %s
+status-bg#2e2b2b
+INFO : 2018/02/26 11:11:20.454713 tmux.go:18: %s[]
+INFO : 2018/02/26 11:11:20.454838 tmux.go:14: tmux set -g %s %s
+status-right-bg#98d3f9
+INFO : 2018/02/26 11:11:20.466352 tmux.go:18: %s[]
+INFO : 2018/02/26 11:11:20.466457 tmux.go:14: tmux set -g %s %s
+status-right-fg#ffffff
+INFO : 2018/02/26 11:11:20.481423 tmux.go:18: %s[]
+INFO : 2018/02/26 11:11:20.481825 tmux.go:14: tmux set -g %s %s
+window_status_last_bg#98d3f9
+INFO : 2018/02/26 11:11:20.492430 tmux.go:18: %s[117 110 107 110 111 119 110 32 111 112 116 105 111 110 58 32 119 105 110 100 111 119 95 115 116 97 116 117 115 95 108 97 115 116 95 98 103 10]
+FATAL: 2018/02/26 11:11:20.492551 tmux.go:21: Failed writing tmux setting: { %s: %s }. %s
+window_status_last_bg#98d3f9exit status 1
+INFO : 2018/02/26 11:19:11.150122 transition.go:19: Next bg: %s (%s)cocona-pink-deeper#f77378
+INFO : 2018/02/26 11:19:11.150413 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:19:11.150445 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:19:11.150480 tmux.go:14: tmux set -g %s %s
+status-left#[fg=#e69263,bg=#fcfdaf,bold] #S #[fg=#fcfdaf,bg=#f77378,nobold]#[fg=#ffb7ff,bg=#f77378,bold] #(whoami) #[fg=#f77378,bg=#2e2b2b,nobold]#[fg=#366dd2,bg=#2e2b2b,bold] #I:#P#[fg=#2e2b2b,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:19:11.162585 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.162796 tmux.go:14: tmux set -g %s %s
+status-interval1
+INFO : 2018/02/26 11:19:11.176007 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.176111 tmux.go:14: tmux set -g %s %s
+status-left-length40
+INFO : 2018/02/26 11:19:11.188791 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.188886 tmux.go:14: tmux set -g %s %s
+status-right-length150
+INFO : 2018/02/26 11:19:11.199109 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.199231 tmux.go:14: tmux set -g %s %s
+status-justifycentre
+INFO : 2018/02/26 11:19:11.209195 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.209380 tmux.go:14: tmux set -g %s %s
+pane-border-bgdefault
+INFO : 2018/02/26 11:19:11.222880 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.222982 tmux.go:14: tmux set -g %s %s
+pane-active-border-bgdefault
+INFO : 2018/02/26 11:19:11.233548 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.233668 tmux.go:14: tmux set -g %s %s
+clock-mode-style12
+INFO : 2018/02/26 11:19:11.247904 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.248044 tmux.go:14: tmux set -g %s %s
+window-status-separator 
+INFO : 2018/02/26 11:19:11.262691 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.262890 tmux.go:14: tmux set -g %s %s
+status-fg#ffffff
+INFO : 2018/02/26 11:19:11.272943 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.273057 tmux.go:14: tmux set -g %s %s
+status-bg#2e2b2b
+INFO : 2018/02/26 11:19:11.285987 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.286086 tmux.go:14: tmux set -g %s %s
+status-right-bg#98d3f9
+INFO : 2018/02/26 11:19:11.297206 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.297318 tmux.go:14: tmux set -g %s %s
+status-right-fg#ffffff
+INFO : 2018/02/26 11:19:11.314418 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.314546 tmux.go:14: tmux set -g %s %s
+window-status-current-bg#e69263
+INFO : 2018/02/26 11:19:11.330746 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.330862 tmux.go:14: tmux set -g %s %s
+window-status-current-fg#ffffff
+INFO : 2018/02/26 11:19:11.344486 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.344582 tmux.go:14: tmux set -g %s %s
+window-status-bg#fcfdaf
+INFO : 2018/02/26 11:19:11.358888 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.359008 tmux.go:14: tmux set -g %s %s
+window-status-fg#888888
+INFO : 2018/02/26 11:19:11.371447 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.371562 tmux.go:14: tmux set -g %s %s
+window-status-activity-bg#ffffff
+INFO : 2018/02/26 11:19:11.386452 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.386663 tmux.go:14: tmux set -g %s %s
+window-status-activity-fg#cb88ec
+INFO : 2018/02/26 11:19:11.398818 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.398930 tmux.go:14: tmux set -g %s %s
+pane-border-fg#ffb7ff
+INFO : 2018/02/26 11:19:11.408943 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.409077 tmux.go:14: tmux set -g %s %s
+pane-active-border-fg#2e2b2b
+INFO : 2018/02/26 11:19:11.422889 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.423007 tmux.go:14: tmux set -g %s %s
+display-panes-colour#a6e22e
+INFO : 2018/02/26 11:19:11.433972 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.434089 tmux.go:14: tmux set -g %s %s
+display-panes-active-colour#cb88ec
+INFO : 2018/02/26 11:19:11.447591 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.447715 tmux.go:14: tmux set -g %s %s
+clock-mode-colour#fa9cb6
+INFO : 2018/02/26 11:19:11.461369 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.461477 tmux.go:14: tmux set -g %s %s
+message-bg#ffffff
+INFO : 2018/02/26 11:19:11.471916 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.472025 tmux.go:14: tmux set -g %s %s
+message-fg#ff8da7
+INFO : 2018/02/26 11:19:11.484432 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.484534 tmux.go:14: tmux set -g %s %s
+message-command-bg#dce4e3
+INFO : 2018/02/26 11:19:11.496027 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.496152 tmux.go:14: tmux set -g %s %s
+message-command-fg#df8289
+INFO : 2018/02/26 11:19:11.509187 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.509323 tmux.go:14: tmux set -g %s %s
+mode-bg#98d3f9
+INFO : 2018/02/26 11:19:11.522828 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.522978 tmux.go:14: tmux set -g %s %s
+mode-fg#ffffff
+INFO : 2018/02/26 11:19:11.533366 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:11.533527 transition.go:19: Next bg: %s (%s)flipflap-yellow#fcfdaf
+INFO : 2018/02/26 11:19:11.533611 transition.go:19: Next bg: %s (%s)flipflap-gold#e69263
+INFO : 2018/02/26 11:19:11.533662 transition.go:19: Next bg: %s (%s)pure-white#ffffff
+INFO : 2018/02/26 11:19:11.533706 transition.go:19: Next bg: %s (%s)cocona-pink#fa9cb6
+INFO : 2018/02/26 11:19:11.533744 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:19:11.533802 tmux.go:29: tmux setw -g %s %s
+window-status-current-format#[fg=#2e2b2b,bg=#fcfdaf,nobold]#[fg=#2e2b2b,bg=#fcfdaf,bold] #I #[fg=#fcfdaf,bg=#e69263,nobold]#[fg=#ffffff,bg=#e69263,nobold] #[fg=#e69263,bg=#ffffff,nobold]#[fg=#000000,bg=#ffffff,bold] #W #[fg=#ffffff,bg=#fa9cb6,nobold]#[fg=#fa9cb6,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:19:11.545327 tmux.go:33: %s[]
+INFO : 2018/02/26 11:19:11.545463 transition.go:19: Next bg: %s (%s)flipflap-cyan#6af2f1
+INFO : 2018/02/26 11:19:11.545503 transition.go:19: Next bg: %s (%s)flipflap-cyan#6af2f1
+INFO : 2018/02/26 11:19:11.545534 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:19:11.545614 tmux.go:29: tmux setw -g %s %s
+window-status-last-format#[fg=#2e2b2b,bg=#6af2f1,nobold]#[fg=#ffffff,bg=#6af2f1,bold] #I#[fg=#6af2f1,bg=#6af2f1,nobold]#[fg=#ffffff,bg=#6af2f1,bold] #W#[fg=#6af2f1,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:19:11.555350 tmux.go:33: %s[117 110 107 110 111 119 110 32 111 112 116 105 111 110 58 32 119 105 110 100 111 119 45 115 116 97 116 117 115 45 108 97 115 116 45 102 111 114 109 97 116 10]
+FATAL: 2018/02/26 11:19:11.555483 tmux.go:36: Failed writing tmux setting: { %s: %s }. %s
+window-status-last-format#[fg=#2e2b2b,bg=#6af2f1,nobold]#[fg=#ffffff,bg=#6af2f1,bold] #I#[fg=#6af2f1,bg=#6af2f1,nobold]#[fg=#ffffff,bg=#6af2f1,bold] #W#[fg=#6af2f1,bg=#2e2b2b,nobold]exit status 1
+INFO : 2018/02/26 11:19:57.060346 transition.go:19: Next bg: %s (%s)cocona-pink-deeper#f77378
+INFO : 2018/02/26 11:19:57.060682 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:19:57.060735 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:19:57.060785 tmux.go:14: tmux set -g %s %s
+status-left#[fg=#e69263,bg=#fcfdaf,bold] #S #[fg=#fcfdaf,bg=#f77378,nobold]#[fg=#ffb7ff,bg=#f77378,bold] #(whoami) #[fg=#f77378,bg=#2e2b2b,nobold]#[fg=#366dd2,bg=#2e2b2b,bold] #I:#P#[fg=#2e2b2b,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:19:57.076403 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.076592 tmux.go:14: tmux set -g %s %s
+status-interval1
+INFO : 2018/02/26 11:19:57.087171 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.087277 tmux.go:14: tmux set -g %s %s
+status-left-length40
+INFO : 2018/02/26 11:19:57.100671 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.100790 tmux.go:14: tmux set -g %s %s
+status-right-length150
+INFO : 2018/02/26 11:19:57.114169 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.114276 tmux.go:14: tmux set -g %s %s
+status-justifycentre
+INFO : 2018/02/26 11:19:57.124250 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.124376 tmux.go:14: tmux set -g %s %s
+pane-border-bgdefault
+INFO : 2018/02/26 11:19:57.135355 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.135676 tmux.go:14: tmux set -g %s %s
+pane-active-border-bgdefault
+INFO : 2018/02/26 11:19:57.147571 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.147689 tmux.go:14: tmux set -g %s %s
+clock-mode-style12
+INFO : 2018/02/26 11:19:57.160571 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.160680 tmux.go:14: tmux set -g %s %s
+window-status-separator 
+INFO : 2018/02/26 11:19:57.174761 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.174990 tmux.go:14: tmux set -g %s %s
+status-fg#ffffff
+INFO : 2018/02/26 11:19:57.185271 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.185376 tmux.go:14: tmux set -g %s %s
+status-bg#2e2b2b
+INFO : 2018/02/26 11:19:57.195978 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.196094 tmux.go:14: tmux set -g %s %s
+status-right-bg#98d3f9
+INFO : 2018/02/26 11:19:57.208290 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.208415 tmux.go:14: tmux set -g %s %s
+status-right-fg#ffffff
+INFO : 2018/02/26 11:19:57.219443 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.219554 tmux.go:14: tmux set -g %s %s
+window-status-current-bg#e69263
+INFO : 2018/02/26 11:19:57.233076 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.233191 tmux.go:14: tmux set -g %s %s
+window-status-current-fg#ffffff
+INFO : 2018/02/26 11:19:57.246497 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.246602 tmux.go:14: tmux set -g %s %s
+window-status-bg#fcfdaf
+INFO : 2018/02/26 11:19:57.257585 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.257704 tmux.go:14: tmux set -g %s %s
+window-status-fg#888888
+INFO : 2018/02/26 11:19:57.268854 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.268968 tmux.go:14: tmux set -g %s %s
+window-status-activity-bg#ffffff
+INFO : 2018/02/26 11:19:57.280098 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.280212 tmux.go:14: tmux set -g %s %s
+window-status-activity-fg#cb88ec
+INFO : 2018/02/26 11:19:57.291648 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.291765 tmux.go:14: tmux set -g %s %s
+pane-border-fg#ffb7ff
+INFO : 2018/02/26 11:19:57.306028 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.306243 tmux.go:14: tmux set -g %s %s
+pane-active-border-fg#2e2b2b
+INFO : 2018/02/26 11:19:57.320223 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.320367 tmux.go:14: tmux set -g %s %s
+display-panes-colour#a6e22e
+INFO : 2018/02/26 11:19:57.330557 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.330687 tmux.go:14: tmux set -g %s %s
+display-panes-active-colour#cb88ec
+INFO : 2018/02/26 11:19:57.345946 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.346081 tmux.go:14: tmux set -g %s %s
+clock-mode-colour#fa9cb6
+INFO : 2018/02/26 11:19:57.357860 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.358020 tmux.go:14: tmux set -g %s %s
+message-bg#ffffff
+INFO : 2018/02/26 11:19:57.373133 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.373360 tmux.go:14: tmux set -g %s %s
+message-fg#ff8da7
+INFO : 2018/02/26 11:19:57.385621 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.385757 tmux.go:14: tmux set -g %s %s
+message-command-bg#dce4e3
+INFO : 2018/02/26 11:19:57.396685 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.396846 tmux.go:14: tmux set -g %s %s
+message-command-fg#df8289
+INFO : 2018/02/26 11:19:57.409950 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.410077 tmux.go:14: tmux set -g %s %s
+mode-bg#98d3f9
+INFO : 2018/02/26 11:19:57.424053 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.424166 tmux.go:14: tmux set -g %s %s
+mode-fg#ffffff
+INFO : 2018/02/26 11:19:57.439016 tmux.go:18: %s[]
+INFO : 2018/02/26 11:19:57.439263 transition.go:19: Next bg: %s (%s)flipflap-yellow#fcfdaf
+INFO : 2018/02/26 11:19:57.439496 transition.go:19: Next bg: %s (%s)flipflap-gold#e69263
+INFO : 2018/02/26 11:19:57.439612 transition.go:19: Next bg: %s (%s)pure-white#ffffff
+INFO : 2018/02/26 11:19:57.439705 transition.go:19: Next bg: %s (%s)cocona-pink#fa9cb6
+INFO : 2018/02/26 11:19:57.439832 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:19:57.439967 tmux.go:29: tmux setw -g %s %s
+window-status-current-format#[fg=#2e2b2b,bg=#fcfdaf,nobold]#[fg=#2e2b2b,bg=#fcfdaf,bold] #I #[fg=#fcfdaf,bg=#e69263,nobold]#[fg=#ffffff,bg=#e69263,nobold] #[fg=#e69263,bg=#ffffff,nobold]#[fg=#000000,bg=#ffffff,bold] #W #[fg=#ffffff,bg=#fa9cb6,nobold]#[fg=#fa9cb6,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:19:57.452789 tmux.go:33: %s[]
+INFO : 2018/02/26 11:19:57.452908 transition.go:19: Next bg: %s (%s)flipflap-cyan#6af2f1
+INFO : 2018/02/26 11:19:57.452965 transition.go:19: Next bg: %s (%s)flipflap-cyan#6af2f1
+INFO : 2018/02/26 11:19:57.452999 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:19:57.453068 tmux.go:29: tmux setw -g %s %s
+window-status-last-format#[fg=#2e2b2b,bg=#6af2f1,nobold]#[fg=#ffffff,bg=#6af2f1,bold] #I#[fg=#6af2f1,bg=#6af2f1,nobold]#[fg=#ffffff,bg=#6af2f1,bold] #W#[fg=#6af2f1,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:19:57.461322 tmux.go:33: %s[117 110 107 110 111 119 110 32 111 112 116 105 111 110 58 32 119 105 110 100 111 119 45 115 116 97 116 117 115 45 108 97 115 116 45 102 111 114 109 97 116 10]
+FATAL: 2018/02/26 11:19:57.461443 tmux.go:36: Failed writing tmux setting: { %s: %s }. %s
+window-status-last-format#[fg=#2e2b2b,bg=#6af2f1,nobold]#[fg=#ffffff,bg=#6af2f1,bold] #I#[fg=#6af2f1,bg=#6af2f1,nobold]#[fg=#ffffff,bg=#6af2f1,bold] #W#[fg=#6af2f1,bg=#2e2b2b,nobold]exit status 1
+INFO : 2018/02/26 11:20:49.176369 transition.go:19: Next bg: %s (%s)cocona-pink-deeper#f77378
+INFO : 2018/02/26 11:20:49.176581 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:20:49.176610 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:20:49.176653 tmux.go:14: tmux set -g %s %s
+status-left#[fg=#e69263,bg=#fcfdaf,bold] #S #[fg=#fcfdaf,bg=#f77378,nobold]#[fg=#ffb7ff,bg=#f77378,bold] #(whoami) #[fg=#f77378,bg=#2e2b2b,nobold]#[fg=#366dd2,bg=#2e2b2b,bold] #I:#P#[fg=#2e2b2b,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:20:49.188631 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.188810 tmux.go:14: tmux set -g %s %s
+status-interval1
+INFO : 2018/02/26 11:20:49.199367 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.199480 tmux.go:14: tmux set -g %s %s
+status-left-length40
+INFO : 2018/02/26 11:20:49.212519 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.212630 tmux.go:14: tmux set -g %s %s
+status-right-length150
+INFO : 2018/02/26 11:20:49.225810 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.225919 tmux.go:14: tmux set -g %s %s
+status-justifycentre
+INFO : 2018/02/26 11:20:49.235849 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.235951 tmux.go:14: tmux set -g %s %s
+pane-border-bgdefault
+INFO : 2018/02/26 11:20:49.246519 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.246718 tmux.go:14: tmux set -g %s %s
+pane-active-border-bgdefault
+INFO : 2018/02/26 11:20:49.258830 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.258938 tmux.go:14: tmux set -g %s %s
+clock-mode-style12
+INFO : 2018/02/26 11:20:49.269113 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.269229 tmux.go:14: tmux set -g %s %s
+window-status-separator 
+INFO : 2018/02/26 11:20:49.283577 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.283979 tmux.go:14: tmux set -g %s %s
+status-fg#ffffff
+INFO : 2018/02/26 11:20:49.296781 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.296876 tmux.go:14: tmux set -g %s %s
+status-bg#2e2b2b
+INFO : 2018/02/26 11:20:49.307571 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.307698 tmux.go:14: tmux set -g %s %s
+status-right-bg#98d3f9
+INFO : 2018/02/26 11:20:49.322247 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.322415 tmux.go:14: tmux set -g %s %s
+status-right-fg#ffffff
+INFO : 2018/02/26 11:20:49.336987 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.337136 tmux.go:14: tmux set -g %s %s
+window-status-current-bg#e69263
+INFO : 2018/02/26 11:20:49.353096 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.353211 tmux.go:14: tmux set -g %s %s
+window-status-current-fg#ffffff
+INFO : 2018/02/26 11:20:49.367305 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.367437 tmux.go:14: tmux set -g %s %s
+window-status-bg#fcfdaf
+INFO : 2018/02/26 11:20:49.377587 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.377696 tmux.go:14: tmux set -g %s %s
+window-status-fg#888888
+INFO : 2018/02/26 11:20:49.389319 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.389422 tmux.go:14: tmux set -g %s %s
+window-status-activity-bg#ffffff
+INFO : 2018/02/26 11:20:49.400258 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.400373 tmux.go:14: tmux set -g %s %s
+window-status-activity-fg#cb88ec
+INFO : 2018/02/26 11:20:49.414144 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.414270 tmux.go:14: tmux set -g %s %s
+pane-border-fg#ffb7ff
+INFO : 2018/02/26 11:20:49.427959 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.428082 tmux.go:14: tmux set -g %s %s
+pane-active-border-fg#2e2b2b
+INFO : 2018/02/26 11:20:49.438153 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.438263 tmux.go:14: tmux set -g %s %s
+display-panes-colour#a6e22e
+INFO : 2018/02/26 11:20:49.449284 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.449389 tmux.go:14: tmux set -g %s %s
+display-panes-active-colour#cb88ec
+INFO : 2018/02/26 11:20:49.461739 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.461849 tmux.go:14: tmux set -g %s %s
+clock-mode-colour#fa9cb6
+INFO : 2018/02/26 11:20:49.475311 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.475426 tmux.go:14: tmux set -g %s %s
+message-bg#ffffff
+INFO : 2018/02/26 11:20:49.488953 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.489172 tmux.go:14: tmux set -g %s %s
+message-fg#ff8da7
+INFO : 2018/02/26 11:20:49.500673 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.500799 tmux.go:14: tmux set -g %s %s
+message-command-bg#dce4e3
+INFO : 2018/02/26 11:20:49.510625 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.510742 tmux.go:14: tmux set -g %s %s
+message-command-fg#df8289
+INFO : 2018/02/26 11:20:49.523105 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.523210 tmux.go:14: tmux set -g %s %s
+mode-bg#98d3f9
+INFO : 2018/02/26 11:20:49.533603 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.533714 tmux.go:14: tmux set -g %s %s
+mode-fg#ffffff
+INFO : 2018/02/26 11:20:49.548281 tmux.go:18: %s[]
+INFO : 2018/02/26 11:20:49.548392 transition.go:19: Next bg: %s (%s)flipflap-yellow#fcfdaf
+INFO : 2018/02/26 11:20:49.548452 transition.go:19: Next bg: %s (%s)flipflap-gold#e69263
+INFO : 2018/02/26 11:20:49.548504 transition.go:19: Next bg: %s (%s)pure-white#ffffff
+INFO : 2018/02/26 11:20:49.548545 transition.go:19: Next bg: %s (%s)cocona-pink#fa9cb6
+INFO : 2018/02/26 11:20:49.548580 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:20:49.548667 tmux.go:29: tmux setw -g %s %s
+window-status-current-format#[fg=#2e2b2b,bg=#fcfdaf,nobold]#[fg=#2e2b2b,bg=#fcfdaf,bold] #I #[fg=#fcfdaf,bg=#e69263,nobold]#[fg=#ffffff,bg=#e69263,nobold] #[fg=#e69263,bg=#ffffff,nobold]#[fg=#000000,bg=#ffffff,bold] #W #[fg=#ffffff,bg=#fa9cb6,nobold]#[fg=#fa9cb6,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:20:49.564170 tmux.go:33: %s[]
+INFO : 2018/02/26 11:20:49.564293 tmux.go:29: tmux setw -g %s %s
+window-status-last-styledefault,fg=#ffffff,bg=#3981f1
+INFO : 2018/02/26 11:20:49.574754 tmux.go:33: %s[]
+INFO : 2018/02/26 11:20:49.574875 transition.go:19: Next bg: %s (%s)flipflap-rose#ff8da7
+INFO : 2018/02/26 11:20:49.574949 transition.go:19: Next bg: %s (%s)flipflap-rose#ff8da7
+INFO : 2018/02/26 11:20:49.574997 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:20:49.575085 tmux.go:29: tmux setw -g %s %s
+window-status-format#[fg=#2e2b2b,bg=#ff8da7,nobold]#[fg=#ffffff,bg=#ff8da7,bold] #I#[fg=#ff8da7,bg=#ff8da7,nobold]#[fg=#ffffff,bg=#ff8da7,bold] #W #[fg=#ff8da7,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:20:49.586906 tmux.go:33: %s[]
+INFO : 2018/02/26 11:23:25.290586 transition.go:19: Next bg: %s (%s)cocona-pink-deeper#f77378
+INFO : 2018/02/26 11:23:25.290824 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:23:25.290857 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:23:25.290893 tmux.go:14: tmux set -g %s %s
+status-left#[fg=#e69263,bg=#fcfdaf,bold] #S #[fg=#fcfdaf,bg=#f77378,nobold]#[fg=#ffb7ff,bg=#f77378,bold] #(whoami) #[fg=#f77378,bg=#2e2b2b,nobold]#[fg=#366dd2,bg=#2e2b2b,bold] #I:#P#[fg=#2e2b2b,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:23:25.309801 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.310027 tmux.go:14: tmux set -g %s %s
+status-interval1
+INFO : 2018/02/26 11:23:25.324698 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.324807 tmux.go:14: tmux set -g %s %s
+status-left-length40
+INFO : 2018/02/26 11:23:25.340190 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.340304 tmux.go:14: tmux set -g %s %s
+status-right-length150
+INFO : 2018/02/26 11:23:25.361212 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.361367 tmux.go:14: tmux set -g %s %s
+status-justifycentre
+INFO : 2018/02/26 11:23:25.372467 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.372590 tmux.go:14: tmux set -g %s %s
+pane-border-bgdefault
+INFO : 2018/02/26 11:23:25.386907 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.387051 tmux.go:14: tmux set -g %s %s
+pane-active-border-bgdefault
+INFO : 2018/02/26 11:23:25.397675 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.397791 tmux.go:14: tmux set -g %s %s
+clock-mode-style12
+INFO : 2018/02/26 11:23:25.411794 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.411917 tmux.go:14: tmux set -g %s %s
+window-status-separator 
+INFO : 2018/02/26 11:23:25.430555 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.430752 tmux.go:14: tmux set -g %s %s
+status-fg#ffffff
+INFO : 2018/02/26 11:23:25.444718 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.444856 tmux.go:14: tmux set -g %s %s
+status-bg#2e2b2b
+INFO : 2018/02/26 11:23:25.458997 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.459103 tmux.go:14: tmux set -g %s %s
+status-right-bg#98d3f9
+INFO : 2018/02/26 11:23:25.474903 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.475028 tmux.go:14: tmux set -g %s %s
+status-right-fg#ffffff
+INFO : 2018/02/26 11:23:25.486996 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.487135 tmux.go:14: tmux set -g %s %s
+window-status-current-bg#e69263
+INFO : 2018/02/26 11:23:25.498468 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.498593 tmux.go:14: tmux set -g %s %s
+window-status-current-fg#ffffff
+INFO : 2018/02/26 11:23:25.511851 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.511959 tmux.go:14: tmux set -g %s %s
+window-status-bg#fcfdaf
+INFO : 2018/02/26 11:23:25.524792 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.524908 tmux.go:14: tmux set -g %s %s
+window-status-fg#888888
+INFO : 2018/02/26 11:23:25.535592 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.535776 tmux.go:14: tmux set -g %s %s
+window-status-activity-bg#ffffff
+INFO : 2018/02/26 11:23:25.547837 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.548084 tmux.go:14: tmux set -g %s %s
+window-status-activity-fg#cb88ec
+INFO : 2018/02/26 11:23:25.559038 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.559149 tmux.go:14: tmux set -g %s %s
+pane-border-fg#ffb7ff
+INFO : 2018/02/26 11:23:25.573766 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.573888 tmux.go:14: tmux set -g %s %s
+pane-active-border-fg#2e2b2b
+INFO : 2018/02/26 11:23:25.592136 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.592245 tmux.go:14: tmux set -g %s %s
+display-panes-colour#a6e22e
+INFO : 2018/02/26 11:23:25.602461 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.602582 tmux.go:14: tmux set -g %s %s
+display-panes-active-colour#cb88ec
+INFO : 2018/02/26 11:23:25.613323 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.613456 tmux.go:14: tmux set -g %s %s
+clock-mode-colour#fa9cb6
+INFO : 2018/02/26 11:23:25.625615 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.625724 tmux.go:14: tmux set -g %s %s
+message-bg#ffffff
+INFO : 2018/02/26 11:23:25.639149 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.639254 tmux.go:14: tmux set -g %s %s
+message-fg#ff8da7
+INFO : 2018/02/26 11:23:25.652692 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.652897 tmux.go:14: tmux set -g %s %s
+message-command-bg#dce4e3
+INFO : 2018/02/26 11:23:25.664407 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.664526 tmux.go:14: tmux set -g %s %s
+message-command-fg#df8289
+INFO : 2018/02/26 11:23:25.674757 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.674872 tmux.go:14: tmux set -g %s %s
+mode-bg#98d3f9
+INFO : 2018/02/26 11:23:25.686283 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.686407 tmux.go:14: tmux set -g %s %s
+mode-fg#ffffff
+INFO : 2018/02/26 11:23:25.697471 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:25.697582 transition.go:19: Next bg: %s (%s)flipflap-yellow#fcfdaf
+INFO : 2018/02/26 11:23:25.697639 transition.go:19: Next bg: %s (%s)flipflap-gold#e69263
+INFO : 2018/02/26 11:23:25.697679 transition.go:19: Next bg: %s (%s)pure-white#ffffff
+INFO : 2018/02/26 11:23:25.697714 transition.go:28: Next bg: %s (%s)cocona-pink#fa9cb6
+INFO : 2018/02/26 11:23:25.697748 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:23:25.697792 tmux.go:29: tmux setw -g %s %s
+window-status-current-format#[fg=#2e2b2b,bg=#fcfdaf,nobold]#[fg=#2e2b2b,bg=#fcfdaf,bold] #I #[fg=#fcfdaf,bg=#e69263,nobold]#[fg=#ffffff,bg=#e69263,nobold] #[fg=#e69263,bg=#ffffff,nobold]#[fg=#000000,bg=#ffffff,bold] #W #[fg=#000000,bg=#fa9cb6,nobold]#[fg=#fa9cb6,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:23:25.710759 tmux.go:33: %s[]
+INFO : 2018/02/26 11:23:25.710886 tmux.go:29: tmux setw -g %s %s
+window-status-last-styledefault,fg=#ffffff,bg=#3981f1
+INFO : 2018/02/26 11:23:25.723931 tmux.go:33: %s[]
+INFO : 2018/02/26 11:23:25.724069 transition.go:19: Next bg: %s (%s)flipflap-rose#ff8da7
+INFO : 2018/02/26 11:23:25.724139 transition.go:19: Next bg: %s (%s)flipflap-rose#ff8da7
+INFO : 2018/02/26 11:23:25.724189 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:23:25.724277 tmux.go:29: tmux setw -g %s %s
+window-status-format#[fg=#2e2b2b,bg=#ff8da7,nobold]#[fg=#ffffff,bg=#ff8da7,bold] #I#[fg=#ff8da7,bg=#ff8da7,nobold]#[fg=#ffffff,bg=#ff8da7,bold] #W #[fg=#ff8da7,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:23:25.734589 tmux.go:33: %s[]
+INFO : 2018/02/26 11:23:49.941315 transition.go:19: Next bg: %s (%s)cocona-pink-deeper#f77378
+INFO : 2018/02/26 11:23:49.941601 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:23:49.941644 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:23:49.941697 tmux.go:14: tmux set -g %s %s
+status-left#[fg=#e69263,bg=#fcfdaf,bold] #S #[fg=#fcfdaf,bg=#f77378,nobold]#[fg=#ffb7ff,bg=#f77378,bold] #(whoami) #[fg=#f77378,bg=#2e2b2b,nobold]#[fg=#366dd2,bg=#2e2b2b,bold] #I:#P#[fg=#2e2b2b,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:23:49.956440 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:49.956605 tmux.go:14: tmux set -g %s %s
+status-interval1
+INFO : 2018/02/26 11:23:49.968859 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:49.969044 tmux.go:14: tmux set -g %s %s
+status-left-length40
+INFO : 2018/02/26 11:23:49.982463 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:49.982583 tmux.go:14: tmux set -g %s %s
+status-right-length150
+INFO : 2018/02/26 11:23:49.996710 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:49.996828 tmux.go:14: tmux set -g %s %s
+status-justifycentre
+INFO : 2018/02/26 11:23:50.011415 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:50.011519 tmux.go:14: tmux set -g %s %s
+pane-border-bgdefault
+INFO : 2018/02/26 11:23:50.030340 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:50.030476 tmux.go:14: tmux set -g %s %s
+pane-active-border-bgdefault
+INFO : 2018/02/26 11:23:50.041734 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:50.041853 tmux.go:14: tmux set -g %s %s
+clock-mode-style12
+INFO : 2018/02/26 11:23:50.057455 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:50.057764 tmux.go:14: tmux set -g %s %s
+window-status-separator 
+INFO : 2018/02/26 11:23:50.069901 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:50.070092 tmux.go:14: tmux set -g %s %s
+status-fg#ffffff
+INFO : 2018/02/26 11:23:50.080186 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:50.080304 tmux.go:14: tmux set -g %s %s
+status-bg#2e2b2b
+INFO : 2018/02/26 11:23:50.094554 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:50.094678 tmux.go:14: tmux set -g %s %s
+status-right-bg#98d3f9
+INFO : 2018/02/26 11:23:50.105409 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:50.105523 tmux.go:14: tmux set -g %s %s
+status-right-fg#ffffff
+INFO : 2018/02/26 11:23:50.124737 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:50.124843 tmux.go:14: tmux set -g %s %s
+window-status-current-bg#e69263
+INFO : 2018/02/26 11:23:50.134812 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:50.134930 tmux.go:14: tmux set -g %s %s
+window-status-current-fg#ffffff
+INFO : 2018/02/26 11:23:50.144965 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:50.145070 tmux.go:14: tmux set -g %s %s
+window-status-bg#fcfdaf
+INFO : 2018/02/26 11:23:50.157550 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:50.157656 tmux.go:14: tmux set -g %s %s
+window-status-fg#888888
+INFO : 2018/02/26 11:23:50.168720 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:50.168830 tmux.go:14: tmux set -g %s %s
+window-status-activity-bg#ffffff
+INFO : 2018/02/26 11:23:50.184333 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:50.184599 tmux.go:14: tmux set -g %s %s
+window-status-activity-fg#cb88ec
+INFO : 2018/02/26 11:23:50.195627 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:50.195736 tmux.go:14: tmux set -g %s %s
+pane-border-fg#ffb7ff
+INFO : 2018/02/26 11:23:50.206275 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:50.206416 tmux.go:14: tmux set -g %s %s
+pane-active-border-fg#2e2b2b
+INFO : 2018/02/26 11:23:50.218835 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:50.218948 tmux.go:14: tmux set -g %s %s
+display-panes-colour#a6e22e
+INFO : 2018/02/26 11:23:50.232775 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:50.232896 tmux.go:14: tmux set -g %s %s
+display-panes-active-colour#cb88ec
+INFO : 2018/02/26 11:23:50.247112 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:50.247233 tmux.go:14: tmux set -g %s %s
+clock-mode-colour#fa9cb6
+INFO : 2018/02/26 11:23:50.260830 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:50.260951 tmux.go:14: tmux set -g %s %s
+message-bg#ffffff
+INFO : 2018/02/26 11:23:50.270864 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:50.270975 tmux.go:14: tmux set -g %s %s
+message-fg#ff8da7
+INFO : 2018/02/26 11:23:50.282300 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:50.282457 tmux.go:14: tmux set -g %s %s
+message-command-bg#dce4e3
+INFO : 2018/02/26 11:23:50.294115 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:50.294218 tmux.go:14: tmux set -g %s %s
+message-command-fg#df8289
+INFO : 2018/02/26 11:23:50.304894 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:50.304998 tmux.go:14: tmux set -g %s %s
+mode-bg#98d3f9
+INFO : 2018/02/26 11:23:50.323428 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:50.323549 tmux.go:14: tmux set -g %s %s
+mode-fg#ffffff
+INFO : 2018/02/26 11:23:50.335385 tmux.go:18: %s[]
+INFO : 2018/02/26 11:23:50.335506 transition.go:19: Next bg: %s (%s)flipflap-yellow#fcfdaf
+INFO : 2018/02/26 11:23:50.335549 transition.go:19: Next bg: %s (%s)flipflap-gold#e69263
+INFO : 2018/02/26 11:23:50.335622 transition.go:19: Next bg: %s (%s)pure-white#ffffff
+INFO : 2018/02/26 11:23:50.335657 transition.go:19: Next bg: %s (%s)cocona-pink#fa9cb6
+INFO : 2018/02/26 11:23:50.335688 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:23:50.335727 tmux.go:29: tmux setw -g %s %s
+window-status-current-format#[fg=#2e2b2b,bg=#fcfdaf,nobold]#[fg=#2e2b2b,bg=#fcfdaf,bold] #I #[fg=#fcfdaf,bg=#e69263,nobold]#[fg=#ffffff,bg=#e69263,nobold] #[fg=#e69263,bg=#ffffff,nobold]#[fg=#000000,bg=#ffffff,bold] #W #[fg=#ffffff,bg=#fa9cb6,nobold]#[fg=#fa9cb6,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:23:50.351084 tmux.go:33: %s[]
+INFO : 2018/02/26 11:23:50.351376 tmux.go:29: tmux setw -g %s %s
+window-status-last-styledefault,fg=#ffffff,bg=#3981f1
+INFO : 2018/02/26 11:23:50.370455 tmux.go:33: %s[]
+INFO : 2018/02/26 11:23:50.370563 transition.go:19: Next bg: %s (%s)flipflap-rose#ff8da7
+INFO : 2018/02/26 11:23:50.370612 transition.go:28: Next bg: %s (%s)flipflap-rose#ff8da7
+INFO : 2018/02/26 11:23:50.370649 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:23:50.370705 tmux.go:29: tmux setw -g %s %s
+window-status-format#[fg=#2e2b2b,bg=#ff8da7,nobold]#[fg=#ffffff,bg=#ff8da7,bold] #I#[fg=#ffffff,bg=#ff8da7,nobold]#[fg=#ffffff,bg=#ff8da7,bold] #W #[fg=#ff8da7,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:23:50.384480 tmux.go:33: %s[]
+INFO : 2018/02/26 11:25:38.096142 transition.go:19: Next bg: %s (%s)cocona-pink-deeper#f77378
+INFO : 2018/02/26 11:25:38.096362 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:25:38.096415 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:25:38.096470 tmux.go:14: tmux set -g %s %s
+status-left#[fg=#e69263,bg=#fcfdaf,bold] #S #[fg=#fcfdaf,bg=#f77378,nobold]#[fg=#ffb7ff,bg=#f77378,bold] #(whoami) #[fg=#f77378,bg=#2e2b2b,nobold]#[fg=#366dd2,bg=#2e2b2b,bold] #I:#P#[fg=#2e2b2b,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:25:38.108597 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.108853 tmux.go:14: tmux set -g %s %s
+status-interval1
+INFO : 2018/02/26 11:25:38.119774 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.119883 tmux.go:14: tmux set -g %s %s
+status-left-length40
+INFO : 2018/02/26 11:25:38.132917 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.133031 tmux.go:14: tmux set -g %s %s
+status-right-length150
+INFO : 2018/02/26 11:25:38.148037 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.148158 tmux.go:14: tmux set -g %s %s
+status-justifycentre
+INFO : 2018/02/26 11:25:38.158675 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.158804 tmux.go:14: tmux set -g %s %s
+pane-border-bgdefault
+INFO : 2018/02/26 11:25:38.169159 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.169281 tmux.go:14: tmux set -g %s %s
+pane-active-border-bgdefault
+INFO : 2018/02/26 11:25:38.182088 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.182210 tmux.go:14: tmux set -g %s %s
+clock-mode-style12
+INFO : 2018/02/26 11:25:38.195929 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.196049 tmux.go:14: tmux set -g %s %s
+window-status-separator 
+INFO : 2018/02/26 11:25:38.211183 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.211345 tmux.go:14: tmux set -g %s %s
+status-fg#ffffff
+INFO : 2018/02/26 11:25:38.221702 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.221823 tmux.go:14: tmux set -g %s %s
+status-bg#2e2b2b
+INFO : 2018/02/26 11:25:38.232062 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.232188 tmux.go:14: tmux set -g %s %s
+status-right-bg#98d3f9
+INFO : 2018/02/26 11:25:38.245346 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.245443 tmux.go:14: tmux set -g %s %s
+status-right-fg#ffffff
+INFO : 2018/02/26 11:25:38.259334 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.259445 tmux.go:14: tmux set -g %s %s
+window-status-current-bg#e69263
+INFO : 2018/02/26 11:25:38.277438 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.277565 tmux.go:14: tmux set -g %s %s
+window-status-current-fg#ffffff
+INFO : 2018/02/26 11:25:38.287919 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.288038 tmux.go:14: tmux set -g %s %s
+window-status-bg#fcfdaf
+INFO : 2018/02/26 11:25:38.298688 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.298822 tmux.go:14: tmux set -g %s %s
+window-status-fg#888888
+INFO : 2018/02/26 11:25:38.311892 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.312018 tmux.go:14: tmux set -g %s %s
+window-status-activity-bg#ffffff
+INFO : 2018/02/26 11:25:38.324044 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.324174 tmux.go:14: tmux set -g %s %s
+window-status-activity-fg#cb88ec
+INFO : 2018/02/26 11:25:38.340812 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.341002 tmux.go:14: tmux set -g %s %s
+pane-border-fg#ffb7ff
+INFO : 2018/02/26 11:25:38.352125 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.352238 tmux.go:14: tmux set -g %s %s
+pane-active-border-fg#2e2b2b
+INFO : 2018/02/26 11:25:38.362732 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.362850 tmux.go:14: tmux set -g %s %s
+display-panes-colour#a6e22e
+INFO : 2018/02/26 11:25:38.377559 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.377692 tmux.go:14: tmux set -g %s %s
+display-panes-active-colour#cb88ec
+INFO : 2018/02/26 11:25:38.388805 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.388933 tmux.go:14: tmux set -g %s %s
+clock-mode-colour#fa9cb6
+INFO : 2018/02/26 11:25:38.404129 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.404436 tmux.go:14: tmux set -g %s %s
+message-bg#ffffff
+INFO : 2018/02/26 11:25:38.415893 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.416004 tmux.go:14: tmux set -g %s %s
+message-fg#ff8da7
+INFO : 2018/02/26 11:25:38.426214 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.426310 tmux.go:14: tmux set -g %s %s
+message-command-bg#dce4e3
+INFO : 2018/02/26 11:25:38.437647 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.437933 tmux.go:14: tmux set -g %s %s
+message-command-fg#df8289
+INFO : 2018/02/26 11:25:38.450379 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.450476 tmux.go:14: tmux set -g %s %s
+mode-bg#98d3f9
+INFO : 2018/02/26 11:25:38.464043 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.464160 tmux.go:14: tmux set -g %s %s
+mode-fg#ffffff
+INFO : 2018/02/26 11:25:38.478216 tmux.go:18: %s[]
+INFO : 2018/02/26 11:25:38.478333 transition.go:19: Next bg: %s (%s)flipflap-rose#ff8da7
+INFO : 2018/02/26 11:25:38.478381 transition.go:28: Next bg: %s (%s)flipflap-rose#ff8da7
+INFO : 2018/02/26 11:25:38.478423 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:25:38.478483 tmux.go:29: tmux setw -g %s %s
+window-status-format#[fg=#2e2b2b,bg=#ff8da7,nobold]#[fg=#ffffff,bg=#ff8da7,bold] #I #[fg=#ffffff,bg=#ff8da7,nobold]#[fg=#ffffff,bg=#ff8da7,bold] #W#[fg=#ff8da7,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:25:38.489596 tmux.go:33: %s[]
+INFO : 2018/02/26 11:25:38.489702 transition.go:19: Next bg: %s (%s)flipflap-yellow#fcfdaf
+INFO : 2018/02/26 11:25:38.489747 transition.go:19: Next bg: %s (%s)flipflap-gold#e69263
+INFO : 2018/02/26 11:25:38.489786 transition.go:19: Next bg: %s (%s)pure-white#ffffff
+INFO : 2018/02/26 11:25:38.489821 transition.go:19: Next bg: %s (%s)cocona-pink#fa9cb6
+INFO : 2018/02/26 11:25:38.489855 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:25:38.489921 tmux.go:29: tmux setw -g %s %s
+window-status-current-format#[fg=#2e2b2b,bg=#fcfdaf,nobold]#[fg=#2e2b2b,bg=#fcfdaf,bold] #I #[fg=#fcfdaf,bg=#e69263,nobold]#[fg=#ffffff,bg=#e69263,nobold] #[fg=#e69263,bg=#ffffff,nobold]#[fg=#000000,bg=#ffffff,bold] #W #[fg=#ffffff,bg=#fa9cb6,nobold]#[fg=#fa9cb6,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:25:38.500354 tmux.go:33: %s[]
+INFO : 2018/02/26 11:25:38.500620 tmux.go:29: tmux setw -g %s %s
+window-status-last-styledefault,fg=#ffffff,bg=#3981f1
+INFO : 2018/02/26 11:25:38.512854 tmux.go:33: %s[]
+INFO : 2018/02/26 11:26:24.652507 transition.go:19: Next bg: %s (%s)cocona-pink-deeper#f77378
+INFO : 2018/02/26 11:26:24.652710 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:26:24.652736 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:26:24.652767 tmux.go:14: tmux set -g %s %s
+status-left#[fg=#e69263,bg=#fcfdaf,bold] #S #[fg=#fcfdaf,bg=#f77378,nobold]#[fg=#ffb7ff,bg=#f77378,bold] #(whoami) #[fg=#f77378,bg=#2e2b2b,nobold]#[fg=#366dd2,bg=#2e2b2b,bold] #I:#P#[fg=#2e2b2b,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:26:24.666008 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:24.666184 tmux.go:14: tmux set -g %s %s
+status-interval1
+INFO : 2018/02/26 11:26:24.676670 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:24.676786 tmux.go:14: tmux set -g %s %s
+status-left-length40
+INFO : 2018/02/26 11:26:24.695687 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:24.695833 tmux.go:14: tmux set -g %s %s
+status-right-length150
+INFO : 2018/02/26 11:26:24.707274 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:24.707383 tmux.go:14: tmux set -g %s %s
+status-justifycentre
+INFO : 2018/02/26 11:26:24.720316 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:24.720415 tmux.go:14: tmux set -g %s %s
+pane-border-bgdefault
+INFO : 2018/02/26 11:26:24.734418 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:24.734573 tmux.go:14: tmux set -g %s %s
+pane-active-border-bgdefault
+INFO : 2018/02/26 11:26:24.744697 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:24.744800 tmux.go:14: tmux set -g %s %s
+clock-mode-style12
+INFO : 2018/02/26 11:26:24.755771 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:24.755961 tmux.go:14: tmux set -g %s %s
+window-status-separator 
+INFO : 2018/02/26 11:26:24.767458 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:24.767679 tmux.go:14: tmux set -g %s %s
+status-fg#ffffff
+INFO : 2018/02/26 11:26:24.780794 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:24.780919 tmux.go:14: tmux set -g %s %s
+status-bg#2e2b2b
+INFO : 2018/02/26 11:26:24.795365 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:24.795492 tmux.go:14: tmux set -g %s %s
+status-right-bg#98d3f9
+INFO : 2018/02/26 11:26:24.806555 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:24.806674 tmux.go:14: tmux set -g %s %s
+status-right-fg#ffffff
+INFO : 2018/02/26 11:26:24.817029 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:24.817149 tmux.go:14: tmux set -g %s %s
+window-status-current-bg#e69263
+INFO : 2018/02/26 11:26:24.832186 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:24.832286 tmux.go:14: tmux set -g %s %s
+window-status-current-fg#ffffff
+INFO : 2018/02/26 11:26:24.844483 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:24.844605 tmux.go:14: tmux set -g %s %s
+window-status-bg#fcfdaf
+INFO : 2018/02/26 11:26:24.862111 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:24.862420 tmux.go:14: tmux set -g %s %s
+window-status-fg#888888
+INFO : 2018/02/26 11:26:24.874894 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:24.875019 tmux.go:14: tmux set -g %s %s
+window-status-activity-bg#ffffff
+INFO : 2018/02/26 11:26:24.885803 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:24.885920 tmux.go:14: tmux set -g %s %s
+window-status-activity-fg#cb88ec
+INFO : 2018/02/26 11:26:24.899038 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:24.899158 tmux.go:14: tmux set -g %s %s
+pane-border-fg#ffb7ff
+INFO : 2018/02/26 11:26:24.914019 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:24.914169 tmux.go:14: tmux set -g %s %s
+pane-active-border-fg#2e2b2b
+INFO : 2018/02/26 11:26:24.930340 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:24.930465 tmux.go:14: tmux set -g %s %s
+display-panes-colour#a6e22e
+INFO : 2018/02/26 11:26:24.940826 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:24.940953 tmux.go:14: tmux set -g %s %s
+display-panes-active-colour#cb88ec
+INFO : 2018/02/26 11:26:24.951606 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:24.951724 tmux.go:14: tmux set -g %s %s
+clock-mode-colour#fa9cb6
+INFO : 2018/02/26 11:26:24.964341 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:24.964473 tmux.go:14: tmux set -g %s %s
+message-bg#ffffff
+INFO : 2018/02/26 11:26:24.977428 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:24.977552 tmux.go:14: tmux set -g %s %s
+message-fg#ff8da7
+INFO : 2018/02/26 11:26:24.994010 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:24.994146 tmux.go:14: tmux set -g %s %s
+message-command-bg#dce4e3
+INFO : 2018/02/26 11:26:25.006318 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:25.006418 tmux.go:14: tmux set -g %s %s
+message-command-fg#df8289
+INFO : 2018/02/26 11:26:25.019010 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:25.019113 tmux.go:14: tmux set -g %s %s
+mode-bg#98d3f9
+INFO : 2018/02/26 11:26:25.034101 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:25.034210 tmux.go:14: tmux set -g %s %s
+mode-fg#ffffff
+INFO : 2018/02/26 11:26:25.047040 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:25.047152 transition.go:19: Next bg: %s (%s)flipflap-rose#ff8da7
+INFO : 2018/02/26 11:26:25.047201 transition.go:28: Next bg: %s (%s)flipflap-rose#ff8da7
+INFO : 2018/02/26 11:26:25.047245 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:26:25.047317 tmux.go:29: tmux setw -g %s %s
+window-status-format#[fg=#2e2b2b,bg=#ff8da7,nobold]#[fg=#ffffff,bg=#ff8da7,bold] #I #[fg=#ffffff,bg=#ff8da7,nobold]#[fg=#ffffff,bg=#ff8da7,bold] #W #[fg=#ff8da7,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:26:25.061236 tmux.go:33: %s[]
+INFO : 2018/02/26 11:26:25.061361 transition.go:19: Next bg: %s (%s)flipflap-yellow#fcfdaf
+INFO : 2018/02/26 11:26:25.061422 transition.go:19: Next bg: %s (%s)flipflap-gold#e69263
+INFO : 2018/02/26 11:26:25.061477 transition.go:19: Next bg: %s (%s)pure-white#ffffff
+INFO : 2018/02/26 11:26:25.061556 transition.go:19: Next bg: %s (%s)cocona-pink#fa9cb6
+INFO : 2018/02/26 11:26:25.061600 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:26:25.061649 tmux.go:29: tmux setw -g %s %s
+window-status-current-format#[fg=#2e2b2b,bg=#fcfdaf,nobold]#[fg=#2e2b2b,bg=#fcfdaf,bold] #I #[fg=#fcfdaf,bg=#e69263,nobold]#[fg=#ffffff,bg=#e69263,nobold] #[fg=#e69263,bg=#ffffff,nobold]#[fg=#000000,bg=#ffffff,bold] #W #[fg=#ffffff,bg=#fa9cb6,nobold]#[fg=#fa9cb6,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:26:25.072255 tmux.go:33: %s[]
+INFO : 2018/02/26 11:26:25.072400 tmux.go:29: tmux setw -g %s %s
+window-status-last-styledefault,fg=#000000,bg=
+INFO : 2018/02/26 11:26:25.080772 tmux.go:33: %s[98 97 100 32 115 116 121 108 101 58 32 100 101 102 97 117 108 116 44 102 103 61 35 48 48 48 48 48 48 44 98 103 61 10]
+FATAL: 2018/02/26 11:26:25.080889 tmux.go:36: Failed writing tmux setting: { %s: %s }. %s
+window-status-last-styledefault,fg=#000000,bg=exit status 1
+INFO : 2018/02/26 11:26:36.338466 transition.go:19: Next bg: %s (%s)cocona-pink-deeper#f77378
+INFO : 2018/02/26 11:26:36.338789 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:26:36.338844 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:26:36.338892 tmux.go:14: tmux set -g %s %s
+status-left#[fg=#e69263,bg=#fcfdaf,bold] #S #[fg=#fcfdaf,bg=#f77378,nobold]#[fg=#ffb7ff,bg=#f77378,bold] #(whoami) #[fg=#f77378,bg=#2e2b2b,nobold]#[fg=#366dd2,bg=#2e2b2b,bold] #I:#P#[fg=#2e2b2b,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:26:36.357620 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.357816 tmux.go:14: tmux set -g %s %s
+status-interval1
+INFO : 2018/02/26 11:26:36.370984 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.371118 tmux.go:14: tmux set -g %s %s
+status-left-length40
+INFO : 2018/02/26 11:26:36.383733 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.383948 tmux.go:14: tmux set -g %s %s
+status-right-length150
+INFO : 2018/02/26 11:26:36.395591 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.395691 tmux.go:14: tmux set -g %s %s
+status-justifycentre
+INFO : 2018/02/26 11:26:36.408538 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.408656 tmux.go:14: tmux set -g %s %s
+pane-border-bgdefault
+INFO : 2018/02/26 11:26:36.419676 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.419808 tmux.go:14: tmux set -g %s %s
+pane-active-border-bgdefault
+INFO : 2018/02/26 11:26:36.434552 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.434675 tmux.go:14: tmux set -g %s %s
+clock-mode-style12
+INFO : 2018/02/26 11:26:36.444818 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.444944 tmux.go:14: tmux set -g %s %s
+window-status-separator 
+INFO : 2018/02/26 11:26:36.458241 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.458451 tmux.go:14: tmux set -g %s %s
+status-fg#ffffff
+INFO : 2018/02/26 11:26:36.469231 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.469352 tmux.go:14: tmux set -g %s %s
+status-bg#2e2b2b
+INFO : 2018/02/26 11:26:36.480309 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.480425 tmux.go:14: tmux set -g %s %s
+status-right-bg#98d3f9
+INFO : 2018/02/26 11:26:36.493401 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.493517 tmux.go:14: tmux set -g %s %s
+status-right-fg#ffffff
+INFO : 2018/02/26 11:26:36.509178 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.509308 tmux.go:14: tmux set -g %s %s
+window-status-current-bg#e69263
+INFO : 2018/02/26 11:26:36.519602 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.519712 tmux.go:14: tmux set -g %s %s
+window-status-current-fg#ffffff
+INFO : 2018/02/26 11:26:36.529790 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.529904 tmux.go:14: tmux set -g %s %s
+window-status-bg#fcfdaf
+INFO : 2018/02/26 11:26:36.541916 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.542034 tmux.go:14: tmux set -g %s %s
+window-status-fg#888888
+INFO : 2018/02/26 11:26:36.553083 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.553191 tmux.go:14: tmux set -g %s %s
+window-status-activity-bg#ffffff
+INFO : 2018/02/26 11:26:36.568860 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.569080 tmux.go:14: tmux set -g %s %s
+window-status-activity-fg#cb88ec
+INFO : 2018/02/26 11:26:36.579695 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.579796 tmux.go:14: tmux set -g %s %s
+pane-border-fg#ffb7ff
+INFO : 2018/02/26 11:26:36.589892 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.590012 tmux.go:14: tmux set -g %s %s
+pane-active-border-fg#2e2b2b
+INFO : 2018/02/26 11:26:36.600796 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.600907 tmux.go:14: tmux set -g %s %s
+display-panes-colour#a6e22e
+INFO : 2018/02/26 11:26:36.615128 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.615235 tmux.go:14: tmux set -g %s %s
+display-panes-active-colour#cb88ec
+INFO : 2018/02/26 11:26:36.629062 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.629209 tmux.go:14: tmux set -g %s %s
+clock-mode-colour#fa9cb6
+INFO : 2018/02/26 11:26:36.643178 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.643278 tmux.go:14: tmux set -g %s %s
+message-bg#ffffff
+INFO : 2018/02/26 11:26:36.653526 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.653650 tmux.go:14: tmux set -g %s %s
+message-fg#ff8da7
+INFO : 2018/02/26 11:26:36.665354 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.665489 tmux.go:14: tmux set -g %s %s
+message-command-bg#dce4e3
+INFO : 2018/02/26 11:26:36.677655 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.677776 tmux.go:14: tmux set -g %s %s
+message-command-fg#df8289
+INFO : 2018/02/26 11:26:36.688892 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.689011 tmux.go:14: tmux set -g %s %s
+mode-bg#98d3f9
+INFO : 2018/02/26 11:26:36.705377 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.705485 tmux.go:14: tmux set -g %s %s
+mode-fg#ffffff
+INFO : 2018/02/26 11:26:36.715854 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:36.715970 transition.go:19: Next bg: %s (%s)flipflap-rose#ff8da7
+INFO : 2018/02/26 11:26:36.716010 transition.go:28: Next bg: %s (%s)flipflap-rose#ff8da7
+INFO : 2018/02/26 11:26:36.716060 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:26:36.716140 tmux.go:29: tmux setw -g %s %s
+window-status-format#[fg=#2e2b2b,bg=#ff8da7,nobold]#[fg=#ffffff,bg=#ff8da7,bold] #I #[fg=#ffffff,bg=#ff8da7,nobold]#[fg=#ffffff,bg=#ff8da7,bold] #W #[fg=#ff8da7,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:26:36.727223 tmux.go:33: %s[]
+INFO : 2018/02/26 11:26:36.727338 transition.go:19: Next bg: %s (%s)flipflap-yellow#fcfdaf
+INFO : 2018/02/26 11:26:36.727381 transition.go:19: Next bg: %s (%s)flipflap-gold#e69263
+INFO : 2018/02/26 11:26:36.727420 transition.go:19: Next bg: %s (%s)pure-white#ffffff
+INFO : 2018/02/26 11:26:36.727452 transition.go:19: Next bg: %s (%s)cocona-pink#fa9cb6
+INFO : 2018/02/26 11:26:36.727483 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:26:36.727554 tmux.go:29: tmux setw -g %s %s
+window-status-current-format#[fg=#2e2b2b,bg=#fcfdaf,nobold]#[fg=#2e2b2b,bg=#fcfdaf,bold] #I #[fg=#fcfdaf,bg=#e69263,nobold]#[fg=#ffffff,bg=#e69263,nobold] #[fg=#e69263,bg=#ffffff,nobold]#[fg=#000000,bg=#ffffff,bold] #W #[fg=#ffffff,bg=#fa9cb6,nobold]#[fg=#fa9cb6,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:26:36.739577 tmux.go:33: %s[]
+INFO : 2018/02/26 11:26:36.739724 tmux.go:29: tmux setw -g %s %s
+window-status-last-styledefault,fg=#000000,bg=
+INFO : 2018/02/26 11:26:36.748251 tmux.go:33: %s[98 97 100 32 115 116 121 108 101 58 32 100 101 102 97 117 108 116 44 102 103 61 35 48 48 48 48 48 48 44 98 103 61 10]
+FATAL: 2018/02/26 11:26:36.748386 tmux.go:36: Failed writing tmux setting: { %s: %s }. %s
+window-status-last-styledefault,fg=#000000,bg=exit status 1
+INFO : 2018/02/26 11:26:42.839710 transition.go:19: Next bg: %s (%s)cocona-pink-deeper#f77378
+INFO : 2018/02/26 11:26:42.839914 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:26:42.839940 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:26:42.839971 tmux.go:14: tmux set -g %s %s
+status-left#[fg=#e69263,bg=#fcfdaf,bold] #S #[fg=#fcfdaf,bg=#f77378,nobold]#[fg=#ffb7ff,bg=#f77378,bold] #(whoami) #[fg=#f77378,bg=#2e2b2b,nobold]#[fg=#366dd2,bg=#2e2b2b,bold] #I:#P#[fg=#2e2b2b,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:26:42.851697 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:42.851916 tmux.go:14: tmux set -g %s %s
+status-interval1
+INFO : 2018/02/26 11:26:42.865544 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:42.865652 tmux.go:14: tmux set -g %s %s
+status-left-length40
+INFO : 2018/02/26 11:26:42.880438 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:42.880546 tmux.go:14: tmux set -g %s %s
+status-right-length150
+INFO : 2018/02/26 11:26:42.895331 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:42.895440 tmux.go:14: tmux set -g %s %s
+status-justifycentre
+INFO : 2018/02/26 11:26:42.905812 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:42.905948 tmux.go:14: tmux set -g %s %s
+pane-border-bgdefault
+INFO : 2018/02/26 11:26:42.917209 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:42.917320 tmux.go:14: tmux set -g %s %s
+pane-active-border-bgdefault
+INFO : 2018/02/26 11:26:42.928835 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:42.928972 tmux.go:14: tmux set -g %s %s
+clock-mode-style12
+INFO : 2018/02/26 11:26:42.942633 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:42.942780 tmux.go:14: tmux set -g %s %s
+window-status-separator 
+INFO : 2018/02/26 11:26:42.956103 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:42.956435 tmux.go:14: tmux set -g %s %s
+status-fg#ffffff
+INFO : 2018/02/26 11:26:42.966942 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:42.967059 tmux.go:14: tmux set -g %s %s
+status-bg#2e2b2b
+INFO : 2018/02/26 11:26:42.977203 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:42.977310 tmux.go:14: tmux set -g %s %s
+status-right-bg#98d3f9
+INFO : 2018/02/26 11:26:42.989341 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:42.989443 tmux.go:14: tmux set -g %s %s
+status-right-fg#ffffff
+INFO : 2018/02/26 11:26:43.006414 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:43.006536 tmux.go:14: tmux set -g %s %s
+window-status-current-bg#e69263
+INFO : 2018/02/26 11:26:43.025030 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:43.025131 tmux.go:14: tmux set -g %s %s
+window-status-current-fg#ffffff
+INFO : 2018/02/26 11:26:43.036102 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:43.036230 tmux.go:14: tmux set -g %s %s
+window-status-bg#fcfdaf
+INFO : 2018/02/26 11:26:43.047406 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:43.047612 tmux.go:14: tmux set -g %s %s
+window-status-fg#888888
+INFO : 2018/02/26 11:26:43.059797 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:43.059905 tmux.go:14: tmux set -g %s %s
+window-status-activity-bg#ffffff
+INFO : 2018/02/26 11:26:43.073474 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:43.073598 tmux.go:14: tmux set -g %s %s
+window-status-activity-fg#cb88ec
+INFO : 2018/02/26 11:26:43.085742 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:43.085956 tmux.go:14: tmux set -g %s %s
+pane-border-fg#ffb7ff
+INFO : 2018/02/26 11:26:43.097767 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:43.097905 tmux.go:14: tmux set -g %s %s
+pane-active-border-fg#2e2b2b
+INFO : 2018/02/26 11:26:43.108690 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:43.108808 tmux.go:14: tmux set -g %s %s
+display-panes-colour#a6e22e
+INFO : 2018/02/26 11:26:43.122093 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:43.122188 tmux.go:14: tmux set -g %s %s
+display-panes-active-colour#cb88ec
+INFO : 2018/02/26 11:26:43.133049 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:43.133154 tmux.go:14: tmux set -g %s %s
+clock-mode-colour#fa9cb6
+INFO : 2018/02/26 11:26:43.146618 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:43.146737 tmux.go:14: tmux set -g %s %s
+message-bg#ffffff
+INFO : 2018/02/26 11:26:43.160402 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:43.160515 tmux.go:14: tmux set -g %s %s
+message-fg#ff8da7
+INFO : 2018/02/26 11:26:43.172129 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:43.172248 tmux.go:14: tmux set -g %s %s
+message-command-bg#dce4e3
+INFO : 2018/02/26 11:26:43.183427 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:43.183616 tmux.go:14: tmux set -g %s %s
+message-command-fg#df8289
+INFO : 2018/02/26 11:26:43.195003 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:43.195126 tmux.go:14: tmux set -g %s %s
+mode-bg#98d3f9
+INFO : 2018/02/26 11:26:43.208798 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:43.208905 tmux.go:14: tmux set -g %s %s
+mode-fg#ffffff
+INFO : 2018/02/26 11:26:43.223160 tmux.go:18: %s[]
+INFO : 2018/02/26 11:26:43.223360 transition.go:19: Next bg: %s (%s)flipflap-rose#ff8da7
+INFO : 2018/02/26 11:26:43.223422 transition.go:28: Next bg: %s (%s)flipflap-rose#ff8da7
+INFO : 2018/02/26 11:26:43.223480 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:26:43.223611 tmux.go:29: tmux setw -g %s %s
+window-status-format#[fg=#2e2b2b,bg=#ff8da7,nobold]#[fg=#ffffff,bg=#ff8da7,bold] #I #[fg=#ffffff,bg=#ff8da7,nobold]#[fg=#ffffff,bg=#ff8da7,bold] #W #[fg=#ff8da7,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:26:43.236227 tmux.go:33: %s[]
+INFO : 2018/02/26 11:26:43.236351 transition.go:19: Next bg: %s (%s)flipflap-yellow#fcfdaf
+INFO : 2018/02/26 11:26:43.236407 transition.go:19: Next bg: %s (%s)flipflap-gold#e69263
+INFO : 2018/02/26 11:26:43.236456 transition.go:19: Next bg: %s (%s)pure-white#ffffff
+INFO : 2018/02/26 11:26:43.236497 transition.go:19: Next bg: %s (%s)cocona-pink#fa9cb6
+INFO : 2018/02/26 11:26:43.236535 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 11:26:43.236620 tmux.go:29: tmux setw -g %s %s
+window-status-current-format#[fg=#2e2b2b,bg=#fcfdaf,nobold]#[fg=#2e2b2b,bg=#fcfdaf,bold] #I #[fg=#fcfdaf,bg=#e69263,nobold]#[fg=#ffffff,bg=#e69263,nobold] #[fg=#e69263,bg=#ffffff,nobold]#[fg=#000000,bg=#ffffff,bold] #W #[fg=#ffffff,bg=#fa9cb6,nobold]#[fg=#fa9cb6,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 11:26:43.247840 tmux.go:33: %s[]
+INFO : 2018/02/26 11:26:43.247997 tmux.go:29: tmux setw -g %s %s
+window-status-last-styledefault,fg=#000000
+INFO : 2018/02/26 11:26:43.260646 tmux.go:33: %s[]
+INFO : 2018/02/26 12:02:41.313648 transition.go:19: Next bg: %s (%s)cocona-pink-deeper#f77378
+INFO : 2018/02/26 12:02:41.313947 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 12:02:41.313988 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 12:02:41.314037 tmux.go:14: tmux set -g %s %s
+status-left#[fg=#e69263,bg=#fcfdaf,bold] #S #[fg=#fcfdaf,bg=#f77378,nobold]#[fg=#ffb7ff,bg=#f77378,bold] #(whoami) #[fg=#f77378,bg=#2e2b2b,nobold]#[fg=#366dd2,bg=#2e2b2b,bold] #I:#P#[fg=#2e2b2b,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 12:02:41.330372 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.330544 tmux.go:14: tmux set -g %s %s
+status-interval1
+INFO : 2018/02/26 12:02:41.344206 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.344336 tmux.go:14: tmux set -g %s %s
+status-left-length40
+INFO : 2018/02/26 12:02:41.357976 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.358118 tmux.go:14: tmux set -g %s %s
+status-right-length150
+INFO : 2018/02/26 12:02:41.369066 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.369172 tmux.go:14: tmux set -g %s %s
+status-justifycentre
+INFO : 2018/02/26 12:02:41.380075 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.380178 tmux.go:14: tmux set -g %s %s
+pane-border-bgdefault
+INFO : 2018/02/26 12:02:41.395028 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.395134 tmux.go:14: tmux set -g %s %s
+pane-active-border-bgdefault
+INFO : 2018/02/26 12:02:41.411897 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.411995 tmux.go:14: tmux set -g %s %s
+clock-mode-style12
+INFO : 2018/02/26 12:02:41.428690 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.428809 tmux.go:14: tmux set -g %s %s
+window-status-separator 
+INFO : 2018/02/26 12:02:41.441975 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.442322 tmux.go:14: tmux set -g %s %s
+status-fg#ffffff
+INFO : 2018/02/26 12:02:41.457134 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.457251 tmux.go:14: tmux set -g %s %s
+status-bg#2e2b2b
+INFO : 2018/02/26 12:02:41.470569 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.470694 tmux.go:14: tmux set -g %s %s
+status-right-bg#98d3f9
+INFO : 2018/02/26 12:02:41.486458 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.486698 tmux.go:14: tmux set -g %s %s
+status-right-fg#ffffff
+INFO : 2018/02/26 12:02:41.498677 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.498786 tmux.go:14: tmux set -g %s %s
+window-status-current-bg#e69263
+INFO : 2018/02/26 12:02:41.508960 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.509143 tmux.go:14: tmux set -g %s %s
+window-status-current-fg#ffffff
+INFO : 2018/02/26 12:02:41.521576 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.521675 tmux.go:14: tmux set -g %s %s
+window-status-bg#fcfdaf
+INFO : 2018/02/26 12:02:41.533242 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.533365 tmux.go:14: tmux set -g %s %s
+window-status-fg#888888
+INFO : 2018/02/26 12:02:41.547024 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.547141 tmux.go:14: tmux set -g %s %s
+window-status-activity-bg#ffffff
+INFO : 2018/02/26 12:02:41.560880 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.560990 tmux.go:14: tmux set -g %s %s
+window-status-activity-fg#cb88ec
+INFO : 2018/02/26 12:02:41.570835 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.570967 tmux.go:14: tmux set -g %s %s
+pane-border-fg#ffb7ff
+INFO : 2018/02/26 12:02:41.582648 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.582857 tmux.go:14: tmux set -g %s %s
+pane-active-border-fg#2e2b2b
+INFO : 2018/02/26 12:02:41.594709 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.594875 tmux.go:14: tmux set -g %s %s
+display-panes-colour#a6e22e
+INFO : 2018/02/26 12:02:41.610394 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.610677 tmux.go:14: tmux set -g %s %s
+display-panes-active-colour#cb88ec
+INFO : 2018/02/26 12:02:41.622053 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.622241 tmux.go:14: tmux set -g %s %s
+clock-mode-colour#fa9cb6
+INFO : 2018/02/26 12:02:41.632476 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.632600 tmux.go:14: tmux set -g %s %s
+message-bg#ffffff
+INFO : 2018/02/26 12:02:41.642792 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.642916 tmux.go:14: tmux set -g %s %s
+message-fg#ff8da7
+INFO : 2018/02/26 12:02:41.658723 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.658865 tmux.go:14: tmux set -g %s %s
+message-command-bg#dce4e3
+INFO : 2018/02/26 12:02:41.672263 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.672381 tmux.go:14: tmux set -g %s %s
+message-command-fg#df8289
+INFO : 2018/02/26 12:02:41.686231 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.686337 tmux.go:14: tmux set -g %s %s
+mode-bg#98d3f9
+INFO : 2018/02/26 12:02:41.696899 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.697011 tmux.go:14: tmux set -g %s %s
+mode-fg#ffffff
+INFO : 2018/02/26 12:02:41.707082 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.707211 tmux.go:14: tmux set -g %s %s
+@cpu_icon
+INFO : 2018/02/26 12:02:41.715835 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.716037 tmux.go:14: tmux set -g %s %s
+@cpu_bg_color#cccccc
+INFO : 2018/02/26 12:02:41.726522 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.726658 tmux.go:14: tmux set -g %s %s
+@cpu_low_fg_color#a6e22e
+INFO : 2018/02/26 12:02:41.737035 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.737168 tmux.go:14: tmux set -g %s %s
+@cpu_medium_fg_color#fcfdaf
+INFO : 2018/02/26 12:02:41.749606 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.749712 tmux.go:14: tmux set -g %s %s
+@cpu_high_fg_color#fa9cb6
+INFO : 2018/02/26 12:02:41.757783 tmux.go:18: %s[]
+INFO : 2018/02/26 12:02:41.757896 transition.go:19: Next bg: %s (%s)flipflap-rose#ff8da7
+INFO : 2018/02/26 12:02:41.757934 transition.go:28: Next bg: %s (%s)flipflap-rose#ff8da7
+INFO : 2018/02/26 12:02:41.757970 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 12:02:41.758038 tmux.go:29: tmux setw -g %s %s
+window-status-format#[fg=#2e2b2b,bg=#ff8da7,nobold]#[fg=#ffffff,bg=#ff8da7,bold] #I #[fg=#ffffff,bg=#ff8da7,nobold]#[fg=#ffffff,bg=#ff8da7,bold] #W #[fg=#ff8da7,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 12:02:41.769104 tmux.go:33: %s[]
+INFO : 2018/02/26 12:02:41.769215 transition.go:19: Next bg: %s (%s)flipflap-yellow#fcfdaf
+INFO : 2018/02/26 12:02:41.769259 transition.go:19: Next bg: %s (%s)flipflap-gold#e69263
+INFO : 2018/02/26 12:02:41.769302 transition.go:19: Next bg: %s (%s)pure-white#ffffff
+INFO : 2018/02/26 12:02:41.769336 transition.go:19: Next bg: %s (%s)cocona-pink#fa9cb6
+INFO : 2018/02/26 12:02:41.769370 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 12:02:41.769438 tmux.go:29: tmux setw -g %s %s
+window-status-current-format#[fg=#2e2b2b,bg=#fcfdaf,nobold]#[fg=#2e2b2b,bg=#fcfdaf,bold] #I #[fg=#fcfdaf,bg=#e69263,nobold]#[fg=#ffffff,bg=#e69263,nobold] #[fg=#e69263,bg=#ffffff,nobold]#[fg=#000000,bg=#ffffff,bold] #W #[fg=#ffffff,bg=#fa9cb6,nobold]#[fg=#fa9cb6,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 12:02:41.779665 tmux.go:33: %s[]
+INFO : 2018/02/26 12:02:41.779786 tmux.go:29: tmux setw -g %s %s
+window-status-last-styledefault,fg=#000000
+INFO : 2018/02/26 12:02:41.792552 tmux.go:33: %s[]
+INFO : 2018/02/26 12:03:16.996057 transition.go:19: Next bg: %s (%s)cocona-pink-deeper#f77378
+INFO : 2018/02/26 12:03:16.996266 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 12:03:16.996295 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 12:03:16.996328 tmux.go:14: tmux set -g %s %s
+status-left#[fg=#e69263,bg=#fcfdaf,bold] #S #[fg=#fcfdaf,bg=#f77378,nobold]#[fg=#ffb7ff,bg=#f77378,bold] #(whoami) #[fg=#f77378,bg=#2e2b2b,nobold]#[fg=#366dd2,bg=#2e2b2b,bold] #I:#P#[fg=#2e2b2b,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 12:03:17.010561 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.010661 transition.go:19: Next bg: %s (%s)#{cpu_bg_color}
+INFO : 2018/02/26 12:03:17.010696 transition.go:19: Next bg: %s (%s)#{battery_status_bg}
+INFO : 2018/02/26 12:03:17.010722 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 12:03:17.010747 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 12:03:17.010784 tmux.go:14: tmux set -g %s %s
+status-right#[fg=#2e2b2b,bg=,nobold]#[fg=#2e2b2b,bg=#{cpu_bg_color},bold] #{cpu_icon} #{cpu_percentage}#[fg=,bg=,nobold]#[fg=#ffffff,bg=#{battery_status_bg},bold] #{battery_icon} #{battery_percentage}#[fg=,bg=#2e2b2b,nobold]#[fg=#366dd2,bg=#2e2b2b,bold] %a %h-%d %H:%M #[fg=#2e2b2b,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 12:03:17.027189 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.027403 tmux.go:14: tmux set -g %s %s
+status-interval1
+INFO : 2018/02/26 12:03:17.041320 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.041455 tmux.go:14: tmux set -g %s %s
+status-left-length40
+INFO : 2018/02/26 12:03:17.051621 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.051720 tmux.go:14: tmux set -g %s %s
+status-right-length150
+INFO : 2018/02/26 12:03:17.061825 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.061947 tmux.go:14: tmux set -g %s %s
+status-justifycentre
+INFO : 2018/02/26 12:03:17.073541 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.073667 tmux.go:14: tmux set -g %s %s
+pane-border-bgdefault
+INFO : 2018/02/26 12:03:17.084990 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.085098 tmux.go:14: tmux set -g %s %s
+pane-active-border-bgdefault
+INFO : 2018/02/26 12:03:17.100527 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.100624 tmux.go:14: tmux set -g %s %s
+clock-mode-style12
+INFO : 2018/02/26 12:03:17.110739 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.110899 tmux.go:14: tmux set -g %s %s
+window-status-separator 
+INFO : 2018/02/26 12:03:17.121049 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.121324 tmux.go:14: tmux set -g %s %s
+status-fg#ffffff
+INFO : 2018/02/26 12:03:17.131949 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.132059 tmux.go:14: tmux set -g %s %s
+status-bg#2e2b2b
+INFO : 2018/02/26 12:03:17.144786 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.144900 tmux.go:14: tmux set -g %s %s
+status-right-bg#98d3f9
+INFO : 2018/02/26 12:03:17.160010 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.160223 tmux.go:14: tmux set -g %s %s
+status-right-fg#ffffff
+INFO : 2018/02/26 12:03:17.172817 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.172947 tmux.go:14: tmux set -g %s %s
+window-status-current-bg#e69263
+INFO : 2018/02/26 12:03:17.183435 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.183559 tmux.go:14: tmux set -g %s %s
+window-status-current-fg#ffffff
+INFO : 2018/02/26 12:03:17.193752 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.193863 tmux.go:14: tmux set -g %s %s
+window-status-bg#fcfdaf
+INFO : 2018/02/26 12:03:17.204697 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.204850 tmux.go:14: tmux set -g %s %s
+window-status-fg#888888
+INFO : 2018/02/26 12:03:17.216139 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.216244 tmux.go:14: tmux set -g %s %s
+window-status-activity-bg#ffffff
+INFO : 2018/02/26 12:03:17.232003 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.232116 tmux.go:14: tmux set -g %s %s
+window-status-activity-fg#cb88ec
+INFO : 2018/02/26 12:03:17.242005 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.242128 tmux.go:14: tmux set -g %s %s
+pane-border-fg#ffb7ff
+INFO : 2018/02/26 12:03:17.252356 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.252465 tmux.go:14: tmux set -g %s %s
+pane-active-border-fg#2e2b2b
+INFO : 2018/02/26 12:03:17.263367 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.263469 tmux.go:14: tmux set -g %s %s
+display-panes-colour#a6e22e
+INFO : 2018/02/26 12:03:17.275560 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.275675 tmux.go:14: tmux set -g %s %s
+display-panes-active-colour#cb88ec
+INFO : 2018/02/26 12:03:17.286452 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.286573 tmux.go:14: tmux set -g %s %s
+clock-mode-colour#fa9cb6
+INFO : 2018/02/26 12:03:17.303060 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.303178 tmux.go:14: tmux set -g %s %s
+message-bg#ffffff
+INFO : 2018/02/26 12:03:17.313630 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.313741 tmux.go:14: tmux set -g %s %s
+message-fg#ff8da7
+INFO : 2018/02/26 12:03:17.324173 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.324281 tmux.go:14: tmux set -g %s %s
+message-command-bg#dce4e3
+INFO : 2018/02/26 12:03:17.335828 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.335954 tmux.go:14: tmux set -g %s %s
+message-command-fg#df8289
+INFO : 2018/02/26 12:03:17.346804 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.346889 tmux.go:14: tmux set -g %s %s
+mode-bg#98d3f9
+INFO : 2018/02/26 12:03:17.362615 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.362825 tmux.go:14: tmux set -g %s %s
+mode-fg#ffffff
+INFO : 2018/02/26 12:03:17.373950 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.374085 tmux.go:14: tmux set -g %s %s
+@cpu_icon
+INFO : 2018/02/26 12:03:17.382380 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.382557 tmux.go:14: tmux set -g %s %s
+@cpu_bg_color#cccccc
+INFO : 2018/02/26 12:03:17.390548 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.390664 tmux.go:14: tmux set -g %s %s
+@cpu_low_fg_color#a6e22e
+INFO : 2018/02/26 12:03:17.399550 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.399665 tmux.go:14: tmux set -g %s %s
+@cpu_medium_fg_color#fcfdaf
+INFO : 2018/02/26 12:03:17.412985 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.413087 tmux.go:14: tmux set -g %s %s
+@cpu_high_fg_color#fa9cb6
+INFO : 2018/02/26 12:03:17.425929 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:17.426051 transition.go:19: Next bg: %s (%s)flipflap-rose#ff8da7
+INFO : 2018/02/26 12:03:17.426104 transition.go:28: Next bg: %s (%s)flipflap-rose#ff8da7
+INFO : 2018/02/26 12:03:17.426142 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 12:03:17.426199 tmux.go:29: tmux setw -g %s %s
+window-status-format#[fg=#2e2b2b,bg=#ff8da7,nobold]#[fg=#ffffff,bg=#ff8da7,bold] #I #[fg=#ffffff,bg=#ff8da7,nobold]#[fg=#ffffff,bg=#ff8da7,bold] #W #[fg=#ff8da7,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 12:03:17.444210 tmux.go:33: %s[]
+INFO : 2018/02/26 12:03:17.444515 transition.go:19: Next bg: %s (%s)flipflap-yellow#fcfdaf
+INFO : 2018/02/26 12:03:17.444664 transition.go:19: Next bg: %s (%s)flipflap-gold#e69263
+INFO : 2018/02/26 12:03:17.444764 transition.go:19: Next bg: %s (%s)pure-white#ffffff
+INFO : 2018/02/26 12:03:17.444849 transition.go:19: Next bg: %s (%s)cocona-pink#fa9cb6
+INFO : 2018/02/26 12:03:17.444936 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 12:03:17.445089 tmux.go:29: tmux setw -g %s %s
+window-status-current-format#[fg=#2e2b2b,bg=#fcfdaf,nobold]#[fg=#2e2b2b,bg=#fcfdaf,bold] #I #[fg=#fcfdaf,bg=#e69263,nobold]#[fg=#ffffff,bg=#e69263,nobold] #[fg=#e69263,bg=#ffffff,nobold]#[fg=#000000,bg=#ffffff,bold] #W #[fg=#ffffff,bg=#fa9cb6,nobold]#[fg=#fa9cb6,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 12:03:17.457092 tmux.go:33: %s[]
+INFO : 2018/02/26 12:03:17.457222 tmux.go:29: tmux setw -g %s %s
+window-status-last-styledefault,fg=#000000
+INFO : 2018/02/26 12:03:17.470127 tmux.go:33: %s[]
+INFO : 2018/02/26 12:03:33.424526 transition.go:19: Next bg: %s (%s)cocona-pink-deeper#f77378
+INFO : 2018/02/26 12:03:33.424930 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 12:03:33.425008 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 12:03:33.425085 tmux.go:14: tmux set -g %s %s
+status-left#[fg=#e69263,bg=#fcfdaf,bold] #S #[fg=#fcfdaf,bg=#f77378,nobold]#[fg=#ffb7ff,bg=#f77378,bold] #(whoami) #[fg=#f77378,bg=#2e2b2b,nobold]#[fg=#366dd2,bg=#2e2b2b,bold] #I:#P#[fg=#2e2b2b,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 12:03:33.441387 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.441491 transition.go:19: Next bg: %s (%s)#{cpu_bg_color}
+INFO : 2018/02/26 12:03:33.441531 transition.go:19: Next bg: %s (%s)#{battery_status_bg}
+INFO : 2018/02/26 12:03:33.441560 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 12:03:33.441590 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 12:03:33.441629 tmux.go:14: tmux set -g %s %s
+status-right#[fg=#2e2b2b,bg=,nobold]#[fg=#2e2b2b,bg=#{cpu_bg_color},bold] #{cpu_icon} #{cpu_percentage}#[fg=,bg=,nobold]#[fg=#ffffff,bg=#{battery_status_bg},bold] #{battery_icon} #{battery_percentage}#[fg=,bg=#2e2b2b,nobold]#[fg=#366dd2,bg=#2e2b2b,bold] %a %h-%d %H:%M #[fg=#2e2b2b,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 12:03:33.456258 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.456431 tmux.go:14: tmux set -g %s %s
+status-interval1
+INFO : 2018/02/26 12:03:33.474337 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.474465 tmux.go:14: tmux set -g %s %s
+status-left-length40
+INFO : 2018/02/26 12:03:33.485118 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.485235 tmux.go:14: tmux set -g %s %s
+status-right-length150
+INFO : 2018/02/26 12:03:33.501225 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.501452 tmux.go:14: tmux set -g %s %s
+status-justifycentre
+INFO : 2018/02/26 12:03:33.511801 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.511906 tmux.go:14: tmux set -g %s %s
+pane-border-bgdefault
+INFO : 2018/02/26 12:03:33.521965 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.522078 tmux.go:14: tmux set -g %s %s
+pane-active-border-bgdefault
+INFO : 2018/02/26 12:03:33.534264 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.534459 tmux.go:14: tmux set -g %s %s
+clock-mode-style12
+INFO : 2018/02/26 12:03:33.546681 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.546826 tmux.go:14: tmux set -g %s %s
+window-status-separator 
+INFO : 2018/02/26 12:03:33.560643 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.560876 tmux.go:14: tmux set -g %s %s
+status-fg#ffffff
+INFO : 2018/02/26 12:03:33.570750 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.570855 tmux.go:14: tmux set -g %s %s
+status-bg#2e2b2b
+INFO : 2018/02/26 12:03:33.580840 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.580959 tmux.go:14: tmux set -g %s %s
+status-right-bg#98d3f9
+INFO : 2018/02/26 12:03:33.592198 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.592372 tmux.go:14: tmux set -g %s %s
+status-right-fg#ffffff
+INFO : 2018/02/26 12:03:33.605230 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.605397 tmux.go:14: tmux set -g %s %s
+window-status-current-bg#e69263
+INFO : 2018/02/26 12:03:33.620021 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.620255 tmux.go:14: tmux set -g %s %s
+window-status-current-fg#ffffff
+INFO : 2018/02/26 12:03:33.632083 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.632212 tmux.go:14: tmux set -g %s %s
+window-status-bg#fcfdaf
+INFO : 2018/02/26 12:03:33.643479 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.643608 tmux.go:14: tmux set -g %s %s
+window-status-fg#888888
+INFO : 2018/02/26 12:03:33.653857 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.654044 tmux.go:14: tmux set -g %s %s
+window-status-activity-bg#ffffff
+INFO : 2018/02/26 12:03:33.665909 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.666028 tmux.go:14: tmux set -g %s %s
+window-status-activity-fg#cb88ec
+INFO : 2018/02/26 12:03:33.678922 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.679057 tmux.go:14: tmux set -g %s %s
+pane-border-fg#ffb7ff
+INFO : 2018/02/26 12:03:33.694997 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.695118 tmux.go:14: tmux set -g %s %s
+pane-active-border-fg#2e2b2b
+INFO : 2018/02/26 12:03:33.705427 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.705561 tmux.go:14: tmux set -g %s %s
+display-panes-colour#a6e22e
+INFO : 2018/02/26 12:03:33.715751 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.715876 tmux.go:14: tmux set -g %s %s
+display-panes-active-colour#cb88ec
+INFO : 2018/02/26 12:03:33.726522 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.726658 tmux.go:14: tmux set -g %s %s
+clock-mode-colour#fa9cb6
+INFO : 2018/02/26 12:03:33.738204 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.738310 tmux.go:14: tmux set -g %s %s
+message-bg#ffffff
+INFO : 2018/02/26 12:03:33.757720 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.757829 tmux.go:14: tmux set -g %s %s
+message-fg#ff8da7
+INFO : 2018/02/26 12:03:33.768210 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.768329 tmux.go:14: tmux set -g %s %s
+message-command-bg#dce4e3
+INFO : 2018/02/26 12:03:33.778822 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.778942 tmux.go:14: tmux set -g %s %s
+message-command-fg#df8289
+INFO : 2018/02/26 12:03:33.789690 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.789796 tmux.go:14: tmux set -g %s %s
+mode-bg#98d3f9
+INFO : 2018/02/26 12:03:33.802058 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.802177 tmux.go:14: tmux set -g %s %s
+mode-fg#ffffff
+INFO : 2018/02/26 12:03:33.815362 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.815543 tmux.go:14: tmux set -g %s %s
+@cpu_icon
+INFO : 2018/02/26 12:03:33.828093 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.828197 tmux.go:14: tmux set -g %s %s
+@cpu_bg_color#cccccc
+INFO : 2018/02/26 12:03:33.836163 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.836283 tmux.go:14: tmux set -g %s %s
+@cpu_low_fg_color#a6e22e
+INFO : 2018/02/26 12:03:33.844355 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.844469 tmux.go:14: tmux set -g %s %s
+@cpu_medium_fg_color#fcfdaf
+INFO : 2018/02/26 12:03:33.852747 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.852853 tmux.go:14: tmux set -g %s %s
+@cpu_high_fg_color#fa9cb6
+INFO : 2018/02/26 12:03:33.862844 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:33.863027 transition.go:19: Next bg: %s (%s)flipflap-rose#ff8da7
+INFO : 2018/02/26 12:03:33.863119 transition.go:28: Next bg: %s (%s)flipflap-rose#ff8da7
+INFO : 2018/02/26 12:03:33.863181 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 12:03:33.863270 tmux.go:29: tmux setw -g %s %s
+window-status-format#[fg=#2e2b2b,bg=#ff8da7,nobold]#[fg=#ffffff,bg=#ff8da7,bold] #I #[fg=#ffffff,bg=#ff8da7,nobold]#[fg=#ffffff,bg=#ff8da7,bold] #W #[fg=#ff8da7,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 12:03:33.877878 tmux.go:33: %s[]
+INFO : 2018/02/26 12:03:33.878008 transition.go:19: Next bg: %s (%s)flipflap-yellow#fcfdaf
+INFO : 2018/02/26 12:03:33.878072 transition.go:19: Next bg: %s (%s)flipflap-gold#e69263
+INFO : 2018/02/26 12:03:33.878128 transition.go:19: Next bg: %s (%s)pure-white#ffffff
+INFO : 2018/02/26 12:03:33.878169 transition.go:19: Next bg: %s (%s)cocona-pink#fa9cb6
+INFO : 2018/02/26 12:03:33.878209 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 12:03:33.878266 tmux.go:29: tmux setw -g %s %s
+window-status-current-format#[fg=#2e2b2b,bg=#fcfdaf,nobold]#[fg=#2e2b2b,bg=#fcfdaf,bold] #I #[fg=#fcfdaf,bg=#e69263,nobold]#[fg=#ffffff,bg=#e69263,nobold] #[fg=#e69263,bg=#ffffff,nobold]#[fg=#000000,bg=#ffffff,bold] #W #[fg=#ffffff,bg=#fa9cb6,nobold]#[fg=#fa9cb6,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 12:03:33.892755 tmux.go:33: %s[]
+INFO : 2018/02/26 12:03:33.892870 tmux.go:29: tmux setw -g %s %s
+window-status-last-styledefault,fg=#000000
+INFO : 2018/02/26 12:03:33.908336 tmux.go:33: %s[]
+INFO : 2018/02/26 12:03:50.918140 transition.go:19: Next bg: %s (%s)cocona-pink-deeper#f77378
+INFO : 2018/02/26 12:03:50.918341 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 12:03:50.918371 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 12:03:50.918403 tmux.go:14: tmux set -g %s %s
+status-left#[fg=#e69263,bg=#fcfdaf,bold] #S #[fg=#fcfdaf,bg=#f77378,nobold]#[fg=#ffb7ff,bg=#f77378,bold] #(whoami) #[fg=#f77378,bg=#2e2b2b,nobold]#[fg=#366dd2,bg=#2e2b2b,bold] #I:#P#[fg=#2e2b2b,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 12:03:50.931460 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:50.931572 transition.go:19: Next bg: %s (%s)#{cpu_bg_color}
+INFO : 2018/02/26 12:03:50.931621 transition.go:19: Next bg: %s (%s)#{battery_status_bg}
+INFO : 2018/02/26 12:03:50.931657 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 12:03:50.931685 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 12:03:50.931722 tmux.go:14: tmux set -g %s %s
+status-right#[fg=#2e2b2b,bg=,nobold]#[fg=#2e2b2b,bg=#{cpu_bg_color},bold] #{cpu_icon} #{cpu_percentage}#[fg=,bg=,nobold]#[fg=#ffffff,bg=#{battery_status_bg},bold] #{battery_icon} #{battery_percentage}#[fg=,bg=#2e2b2b,nobold]#[fg=#366dd2,bg=#2e2b2b,bold] %a %h-%d %H:%M #[fg=#2e2b2b,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 12:03:50.948159 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:50.948375 tmux.go:14: tmux set -g %s %s
+status-interval1
+INFO : 2018/02/26 12:03:50.963293 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:50.963519 tmux.go:14: tmux set -g %s %s
+status-left-length40
+INFO : 2018/02/26 12:03:50.977845 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:50.977975 tmux.go:14: tmux set -g %s %s
+status-right-length150
+INFO : 2018/02/26 12:03:50.991032 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:50.991176 tmux.go:14: tmux set -g %s %s
+status-justifycentre
+INFO : 2018/02/26 12:03:51.006130 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.006239 tmux.go:14: tmux set -g %s %s
+pane-border-bgdefault
+INFO : 2018/02/26 12:03:51.018199 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.018300 tmux.go:14: tmux set -g %s %s
+pane-active-border-bgdefault
+INFO : 2018/02/26 12:03:51.031452 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.031556 tmux.go:14: tmux set -g %s %s
+clock-mode-style12
+INFO : 2018/02/26 12:03:51.046470 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.046700 tmux.go:14: tmux set -g %s %s
+window-status-separator 
+INFO : 2018/02/26 12:03:51.058487 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.058757 tmux.go:14: tmux set -g %s %s
+status-fg#ffffff
+INFO : 2018/02/26 12:03:51.069264 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.069382 tmux.go:14: tmux set -g %s %s
+status-bg#2e2b2b
+INFO : 2018/02/26 12:03:51.080407 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.080532 tmux.go:14: tmux set -g %s %s
+status-right-bg#98d3f9
+INFO : 2018/02/26 12:03:51.092455 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.092571 tmux.go:14: tmux set -g %s %s
+status-right-fg#ffffff
+INFO : 2018/02/26 12:03:51.106365 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.106505 tmux.go:14: tmux set -g %s %s
+window-status-current-bg#e69263
+INFO : 2018/02/26 12:03:51.120670 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.120763 tmux.go:14: tmux set -g %s %s
+window-status-current-fg#ffffff
+INFO : 2018/02/26 12:03:51.131033 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.131145 tmux.go:14: tmux set -g %s %s
+window-status-bg#fcfdaf
+INFO : 2018/02/26 12:03:51.141085 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.141209 tmux.go:14: tmux set -g %s %s
+window-status-fg#888888
+INFO : 2018/02/26 12:03:51.154819 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.154955 tmux.go:14: tmux set -g %s %s
+window-status-activity-bg#ffffff
+INFO : 2018/02/26 12:03:51.168659 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.168790 tmux.go:14: tmux set -g %s %s
+window-status-activity-fg#cb88ec
+INFO : 2018/02/26 12:03:51.185046 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.185158 tmux.go:14: tmux set -g %s %s
+pane-border-fg#ffb7ff
+INFO : 2018/02/26 12:03:51.195257 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.195379 tmux.go:14: tmux set -g %s %s
+pane-active-border-fg#2e2b2b
+INFO : 2018/02/26 12:03:51.205274 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.205414 tmux.go:14: tmux set -g %s %s
+display-panes-colour#a6e22e
+INFO : 2018/02/26 12:03:51.215662 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.215831 tmux.go:14: tmux set -g %s %s
+display-panes-active-colour#cb88ec
+INFO : 2018/02/26 12:03:51.228242 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.228399 tmux.go:14: tmux set -g %s %s
+clock-mode-colour#fa9cb6
+INFO : 2018/02/26 12:03:51.241374 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.241490 tmux.go:14: tmux set -g %s %s
+message-bg#ffffff
+INFO : 2018/02/26 12:03:51.255712 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.255821 tmux.go:14: tmux set -g %s %s
+message-fg#ff8da7
+INFO : 2018/02/26 12:03:51.266166 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.266270 tmux.go:14: tmux set -g %s %s
+message-command-bg#dce4e3
+INFO : 2018/02/26 12:03:51.277239 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.277415 tmux.go:14: tmux set -g %s %s
+message-command-fg#df8289
+INFO : 2018/02/26 12:03:51.288321 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.288477 tmux.go:14: tmux set -g %s %s
+mode-bg#98d3f9
+INFO : 2018/02/26 12:03:51.300703 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.300805 tmux.go:14: tmux set -g %s %s
+mode-fg#ffffff
+INFO : 2018/02/26 12:03:51.314182 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.314291 tmux.go:14: tmux set -g %s %s
+@cpu_icon
+INFO : 2018/02/26 12:03:51.322364 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.322461 tmux.go:14: tmux set -g %s %s
+@cpu_bg_color#cccccc
+INFO : 2018/02/26 12:03:51.334924 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.335024 tmux.go:14: tmux set -g %s %s
+@cpu_low_fg_color#a6e22e
+INFO : 2018/02/26 12:03:51.343124 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.343236 tmux.go:14: tmux set -g %s %s
+@cpu_medium_fg_color#fcfdaf
+INFO : 2018/02/26 12:03:51.352453 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.352581 tmux.go:14: tmux set -g %s %s
+@cpu_high_fg_color#fa9cb6
+INFO : 2018/02/26 12:03:51.361828 tmux.go:18: %s[]
+INFO : 2018/02/26 12:03:51.361942 transition.go:19: Next bg: %s (%s)flipflap-rose#ff8da7
+INFO : 2018/02/26 12:03:51.361985 transition.go:28: Next bg: %s (%s)flipflap-rose#ff8da7
+INFO : 2018/02/26 12:03:51.362027 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 12:03:51.362096 tmux.go:29: tmux setw -g %s %s
+window-status-format#[fg=#2e2b2b,bg=#ff8da7,nobold]#[fg=#ffffff,bg=#ff8da7,bold] #I #[fg=#ffffff,bg=#ff8da7,nobold]#[fg=#ffffff,bg=#ff8da7,bold] #W #[fg=#ff8da7,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 12:03:51.374235 tmux.go:33: %s[]
+INFO : 2018/02/26 12:03:51.374361 transition.go:19: Next bg: %s (%s)flipflap-yellow#fcfdaf
+INFO : 2018/02/26 12:03:51.374473 transition.go:19: Next bg: %s (%s)flipflap-gold#e69263
+INFO : 2018/02/26 12:03:51.374532 transition.go:19: Next bg: %s (%s)pure-white#ffffff
+INFO : 2018/02/26 12:03:51.374575 transition.go:19: Next bg: %s (%s)cocona-pink#fa9cb6
+INFO : 2018/02/26 12:03:51.374617 transition.go:19: Next bg: %s (%s)soft-gray#2e2b2b
+INFO : 2018/02/26 12:03:51.374668 tmux.go:29: tmux setw -g %s %s
+window-status-current-format#[fg=#2e2b2b,bg=#fcfdaf,nobold]#[fg=#2e2b2b,bg=#fcfdaf,bold] #I #[fg=#fcfdaf,bg=#e69263,nobold]#[fg=#ffffff,bg=#e69263,nobold] #[fg=#e69263,bg=#ffffff,nobold]#[fg=#000000,bg=#ffffff,bold] #W #[fg=#ffffff,bg=#fa9cb6,nobold]#[fg=#fa9cb6,bg=#2e2b2b,nobold]
+INFO : 2018/02/26 12:03:51.389836 tmux.go:33: %s[]
+INFO : 2018/02/26 12:03:51.390007 tmux.go:29: tmux setw -g %s %s
+window-status-last-styledefault,fg=#000000
+INFO : 2018/02/26 12:03:51.400752 tmux.go:33: %s[]

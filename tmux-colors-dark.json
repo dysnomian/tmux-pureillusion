@@ -19,5 +19,10 @@
 	"message-command-bg": "yuyu-white",
 	"message-command-fg": "yuyu-red",
 	"mode-bg": "papika-blue",
-	"mode-fg": "pure-white"
+	"mode-fg": "pure-white",
+	"@cpu_icon": "🖥",
+  "@cpu_bg_color": "pure-light-gray",
+  "@cpu_low_fg_color": "yayaka-green",
+  "@cpu_medium_fg_color": "flipflap-yellow",
+  "@cpu_high_fg_color": "cocona-pink"
 }

@@ -51,6 +51,7 @@ func update_colors(background string) {
 		return nil
 	})
 }
+
 func update_settings(filename string) {
 	term_colors := read_json(filename)
 

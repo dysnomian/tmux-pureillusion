@@ -4,6 +4,13 @@ import (
 	"strings"
 )
 
+func open_segment_left(next Segment) string {
+	div := Divider{direction: "left", black: true}
+	status_bar := Segment{fg: "pure-white", bg: "soft-gray", content: "", bold: false}
+
+	return Transition{status_bar, next, div}.RenderSwapped()
+}
+
 func open_segment_right(next Segment) string {
 	status_bar := Segment{fg: "pure-white", bg: "soft-gray", content: "", bold: false}
 	div := Divider{direction: "right", black: true}
@@ -11,15 +18,8 @@ func open_segment_right(next Segment) string {
 	return Transition{status_bar, next, div}.Render()
 }
 
-func open_segment_left(next Segment) string {
-	div := Divider{direction: "left", black: true}
-	status_bar := Segment{fg: "pure-white", bg: "soft-gray", content: "", bold: false}
-
-	return Transition{status_bar, next, div}.Render()
-}
-
 func close_segment_left(prev Segment) string {
-	status_bar := Segment{fg: "pure-white", bg: "soft-gray", content: "", bold: false}
+	status_bar := Segment{fg: "soft-gray", bg: "soft-gray", content: "", bold: false}
 	div := Divider{direction: "left", black: true}
 
 	return Transition{prev, status_bar, div}.Render()
@@ -35,11 +35,13 @@ func close_segment_right(prev Segment) string {
 func status_left() string {
 	div := Divider{direction: "right", black: true}
 
-	seg1 := Segment{fg: "flipflap-gold", bg: "flipflap-yellow", content: "#S ", bold: true}
-	seg2 := Segment{fg: "pure-pink", bg: "cocona-pink-deeper", content: "#(whoami) ", bold: true}
-	seg3 := Segment{fg: "cocona-blue", bg: "soft-gray", content: "#I:#P", bold: true}
+	screen := Segment{fg: "soft-gray", bg: "flipflap-yellow", content: "#S ", bold: true}
+	accent := Segment{fg: "pure-white", bg: "flipflap-gold", content: "", bold: false}
+	name := Segment{fg: "abyssal-black", bg: "pure-white", content: "#(whoami) ", bold: true}
+	papi := Segment{fg: "pure-white", bg: "papika-blue", content: "", bold: false}
+	line := Segment{fg: "pure-white", bg: "abyssal-black", content: "#I:#P", bold: true}
 
-	var status_arr = []string{seg1.Render(), Transition{seg1, seg2, div}.Render(), seg2.Render(), Transition{seg2, seg3, div}.Render(), seg3.Render(), close_segment_right(seg3)}
+	var status_arr = []string{screen.Render(), Transition{screen, accent, div}.Render(), accent.Render(), Transition{accent, name, div}.Render(), name.Render(), Transition{name, papi, div}.Render(), papi.Render(), Transition{papi, line, div}.Render(), close_segment_right(line)}
 
 	return strings.Join(status_arr, "")
 }
@@ -78,14 +80,15 @@ func last_window() string {
 }
 
 func status_right() string {
-	// set -g status-right '#{cpu_bg_color} CPU: #{cpu_icon} #{cpu_percentage} | %a %h-%d %H:%M '
 	div := Divider{direction: "left", black: true}
 
-	cpu := Segment{fg: "soft-gray", bg: "#{cpu_bg_color}", content: "#{cpu_icon} #{cpu_percentage}", bold: true}
-	battery := Segment{fg: "pure-white", bg: "#{battery_status_bg}", content: "#{battery_icon} #{battery_percentage}", bold: true}
-	clock := Segment{fg: "cocona-blue", bg: "soft-gray", content: "%a %h-%d %H:%M ", bold: true}
+	cpu_icon := Segment{fg: "abyssal-black", bg: "flipflap-yellow", content: "cpu "}
+	cpu_percent := Segment{fg: "abyssal-black", bg: "flipflap-gold", content: "#{cpu_percentage}", bold: true}
+	battery := Segment{fg: "pure-white", bg: "yayaka-green-deeper", content: "#{battery_icon} #{battery_percentage}", bold: true}
 
-	var status_arr = []string{open_segment_left(cpu), cpu.Render(), Transition{cpu, battery, div}.Render(), battery.Render(), Transition{battery, clock, div}.Render(), clock.Render(), close_segment_right(clock)}
+	clock := Segment{fg: "soft-gray", bg: "pure-light-gray", content: "%a %h-%d %H:%M ", bold: true}
+
+	var status_arr = []string{open_segment_left(cpu_icon), cpu_icon.Render(), Transition{cpu_icon, cpu_percent, div}.RenderSwapped(), cpu_percent.Render(), Transition{cpu_percent, battery, div}.RenderSwapped(), battery.Render(), Transition{battery, clock, div}.RenderSwapped(), clock.Render()}
 
 	return strings.Join(status_arr, "")
 }

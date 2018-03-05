@@ -2,12 +2,26 @@ package main
 
 import (
 	"os"
+	"path/filepath"
+	"strings"
 
 	"github.com/google/logger"
 	"github.com/urfave/cli"
 )
 
-const logPath = "tmux-pureillusion.log"
+func packageDir() string {
+	ex, err := os.Executable()
+	if err != nil {
+		panic(err)
+	}
+	exPath := filepath.Dir(ex)
+	return string(exPath)
+}
+
+func relativePath(filename string) string {
+	path := strings.Join([]string{packageDir(), filename}, "/")
+	return path
+}
 
 func main() {
 	app := cli.NewApp()
@@ -40,6 +54,8 @@ func main() {
 	// const settings map[string]string = settings()
 
 	app.Action = func(c *cli.Context) error {
+		var logPath = relativePath("tmux-pureillusion.log")
+		var themePath = relativePath("pureillusion-tmux.json")
 
 		lf, err := os.OpenFile(logPath, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0660)
 		if err != nil {
@@ -50,7 +66,7 @@ func main() {
 		defer logger.Init("TmuxPureillusion", c.Bool("verbose"), true, lf).Close()
 
 		if c.Bool("status-line-only") != true {
-			update_settings("pureillusion-tmux.json")
+			update_settings(themePath)
 			update_colors(c.String("background"))
 			tmux_setw("window-status-format", inactive_window())
 			tmux_setw("window-status-current-format", active_window())

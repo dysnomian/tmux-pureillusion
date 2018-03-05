@@ -6,7 +6,7 @@ import (
 	"github.com/buger/jsonparser"
 )
 
-var colors map[string]string = color_map("colors.json")
+var colors map[string]string = color_map(relativePath("colors.json"))
 
 func colors_filename(background string) string {
 	var filename []string

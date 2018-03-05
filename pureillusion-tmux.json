@@ -1,5 +1,5 @@
 {
-	"status-interval": "1",
+	"status-interval": "5",
   "status-left-length": "40",
   "status-right-length": "150",
 	"status-justify": "centre",
